@@ -38,19 +38,24 @@ Return -1 if the target does not exist
 class Solution {
     public int search(int[] nums, int target) {
         if(nums == null || nums.length == 0) return -1;
-        int s = 0, e = nums.length - 1;
-        while(s + 1 < e){
-            int m = (e - s) / 2 + s;
-            if(nums[m] == target) {
-                return m;
-            }else if(nums[m] < target){
-                s = m;
+        int start = 0;
+        int end = nums.length - 1;
+        while(start + 1 < end){
+            int mid = (end - start) / 2 + start;
+            if(nums[mid] == target){
+                return mid;
+            }else if(nums[mid] < target){
+                start = mid;
             }else{
-                e = m;
+                end = mid;
             }
         }
-        if(nums[s] == target) return s;
-        if(nums[e] == target) return e;
+        if(nums[start] == target){
+            return start;
+        }
+        if(nums[end] == target){
+            return end;
+        }
         return -1;
     }
 }
