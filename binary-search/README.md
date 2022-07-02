@@ -10,6 +10,17 @@ Return -1 if the target does not exist
 
 
 
+记忆点：
+
+```
+start + 1 < end                    //最后在while循环里只剩2个元素
+mid = start + (end - start) / 2    // mid  end - start 是因为超出边界
+nums[mid] == ,  <  , >   target 
+nums[start] nums[end] ? target    
+```
+
+将原本 O(n) 的时间 变为 O(log(n))
+
 [https://leetcode.com/problems/binary-search/](https://leetcode.com/problems/binary-search/)
 
 > Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
@@ -38,19 +49,24 @@ Return -1 if the target does not exist
 class Solution {
     public int search(int[] nums, int target) {
         if(nums == null || nums.length == 0) return -1;
-        int s = 0, e = nums.length - 1;
-        while(s + 1 < e){
-            int m = (e - s) / 2 + s;
-            if(nums[m] == target) {
-                return m;
-            }else if(nums[m] < target){
-                s = m;
+        int start = 0;
+        int end = nums.length - 1;
+        while(start + 1 < end){
+            int mid = (end - start) / 2 + start;
+            if(nums[mid] == target){
+                return mid;
+            }else if(nums[mid] < target){
+                start = mid;
             }else{
-                e = m;
+                end = mid;
             }
         }
-        if(nums[s] == target) return s;
-        if(nums[e] == target) return e;
+        if(nums[start] == target){
+            return start;
+        }
+        if(nums[end] == target){
+            return end;
+        }
         return -1;
     }
 }
