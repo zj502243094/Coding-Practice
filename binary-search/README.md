@@ -16,10 +16,10 @@ Return -1 if the target does not exist
 start + 1 < end                    //最后在while循环里只剩2个元素
 mid = start + (end - start) / 2    // mid  end - start 是因为超出边界
 nums[mid] == ,  <  , >   target 
-nums[start] nums[end] ? target
+nums[start] nums[end] ? target    
 ```
 
-
+将原本 O(n) 的时间 变为 O(log(n))
 
 [https://leetcode.com/problems/binary-search/](https://leetcode.com/problems/binary-search/)
 
