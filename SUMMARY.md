@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [Binary Search](binary-search/README.md)
+  * [First / Last Position of Target](binary-search/page-2.md)
+  * [Wood Cut / Koko Eating Bananas](binary-search/wood-cut-koko-eating-bananas.md)
   * [Search a 2D Matrix](binary-search/search-a-2d-matrix.md)
   * [Search a 2D Matrix II](binary-search/search-a-2d-matrix-ii.md)
   * [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array.md)
@@ -10,7 +12,6 @@
   * [Find Peak Element](binary-search/find-peak-element.md)
   * [First Bad Version](binary-search/first-bad-version.md)
   * [Find First And Last Position of Element in Sorted Array](binary-search/find-first-and-last-position-of-element-in-sorted-array.md)
-  * [Guess Number Higher or Lower/Search in a Big Sorted Array](binary-search/guess-number-higher-or-lower-search-in-a-big-sorted-array.md)
-  * [First/Last Position of Target](binary-search/page-2.md)
+  * [Guess Number Higher or Lower / Search in a Big Sorted Array](binary-search/guess-number-higher-or-lower-search-in-a-big-sorted-array.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
