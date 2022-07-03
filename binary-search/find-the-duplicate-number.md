@@ -1,0 +1,3 @@
+# Find the Duplicate Number
+
+[https://leetcode.com/problems/find-the-duplicate-number/](https://leetcode.com/problems/find-the-duplicate-number/)

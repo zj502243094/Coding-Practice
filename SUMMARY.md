@@ -4,6 +4,8 @@
 * [Binary Search](binary-search/README.md)
   * [First / Last Position of Target](binary-search/page-2.md)
   * [Wood Cut / Koko Eating Bananas](binary-search/wood-cut-koko-eating-bananas.md)
+  * [Sqrt(x) / Sqrt(x) II](binary-search/sqrt-x-sqrt-x-ii.md)
+  * [Find the Duplicate Number](binary-search/find-the-duplicate-number.md)
   * [Search a 2D Matrix](binary-search/search-a-2d-matrix.md)
   * [Search a 2D Matrix II](binary-search/search-a-2d-matrix-ii.md)
   * [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array.md)
