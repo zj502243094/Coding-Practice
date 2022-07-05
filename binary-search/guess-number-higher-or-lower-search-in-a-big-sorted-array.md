@@ -1,4 +1,4 @@
-# Guess Number Higher or Lower/Search in a Big Sorted Array
+# Guess Number Higher or Lower / Search in a Big Sorted Array
 
 [https://leetcode.com/problems/guess-number-higher-or-lower/](https://leetcode.com/problems/guess-number-higher-or-lower/)
 
@@ -76,7 +76,7 @@ public class Solution extends GuessGame {
 {% hint style="info" %}
 因为是非常大的数组 即使每次减半还是很慢 所以需要用每次右端点指数 X2 与target比较
 
-
+然后左端点是 右端点/2 这个范围即可
 {% endhint %}
 
 ```
