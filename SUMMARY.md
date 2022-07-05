@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Integer/ Array / Matrix](integer-array-matrix/README.md)
+  * [Add Digits](integer-array-matrix/add-digits.md)
+  * [Reverse Integer](integer-array-matrix/reverse-integer.md)
+  * [Maximum Subarray](integer-array-matrix/maximum-subarray.md)
 * [Binary Search](binary-search/README.md)
   * [二分位置OOXX](binary-search/er-fen-wei-zhi-ooxx/README.md)
     * [First Bad Version](binary-search/first-bad-version.md)
