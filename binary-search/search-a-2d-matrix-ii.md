@@ -34,7 +34,7 @@
 
 快速方法 从右上向左下找   右上到左下拉开左上的小右下的大  O(log(m \* n)) wrost O(m+n)
 
-![0\_1488858509025\_Monosnap 2017-03-06 22-48-17.jpg](https://leetcode.com/uploads/files/1488858512318-monosnap-2017-03-06-22-48-17.jpg)![](<../.gitbook/assets/image (1).png>)
+![0\_1488858509025\_Monosnap 2017-03-06 22-48-17.jpg](https://leetcode.com/uploads/files/1488858512318-monosnap-2017-03-06-22-48-17.jpg)![](<../.gitbook/assets/image (2).png>)
 {% endhint %}
 
 ```
