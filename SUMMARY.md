@@ -5,6 +5,8 @@
   * [Add Digits](integer-array-matrix/add-digits.md)
   * [Reverse Integer](integer-array-matrix/reverse-integer.md)
   * [Maximum Subarray](integer-array-matrix/maximum-subarray.md)
+  * [Spiral Matrix](integer-array-matrix/spiral-matrix.md)
+  * [Spiral Matrix II](integer-array-matrix/spiral-matrix-ii.md)
 * [Binary Search](binary-search/README.md)
   * [二分位置OOXX](binary-search/er-fen-wei-zhi-ooxx/README.md)
     * [First Bad Version](binary-search/first-bad-version.md)
