@@ -7,6 +7,7 @@
   * [Maximum Subarray](integer-array-matrix/maximum-subarray.md)
   * [Spiral Matrix](integer-array-matrix/spiral-matrix.md)
   * [Spiral Matrix II](integer-array-matrix/spiral-matrix-ii.md)
+  * [Merge Intervals](integer-array-matrix/merge-intervals.md)
 * [Binary Search](binary-search/README.md)
   * [二分位置OOXX](binary-search/er-fen-wei-zhi-ooxx/README.md)
     * [First Bad Version](binary-search/first-bad-version.md)
