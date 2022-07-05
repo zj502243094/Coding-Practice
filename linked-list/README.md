@@ -1,5 +1,18 @@
 # Linked List
 
+```
+public class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) {
+        val = x;
+        next = null;
+   }
+}
+```
+
+
+
 链表与数组的比较
 
 ![](../.gitbook/assets/image.png)
