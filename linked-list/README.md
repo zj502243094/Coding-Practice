@@ -11,7 +11,7 @@ public class ListNode {
 }
 ```
 
-遍历：![](<../.gitbook/assets/image (6).png>)
+遍历：![](<../.gitbook/assets/image (6) (1).png>)
 
 按值查找： ![](<../.gitbook/assets/image (5) (1).png>)
 
