@@ -46,6 +46,7 @@
   * [Insert into a Sorted Circular Linked List](linked-list/insert-into-a-sorted-circular-linked-list.md)
   * [Convert Linked List to Array List / Convert Array List to Linked List](linked-list/convert-linked-list-to-array-list-convert-array-list-to-linked-list.md)
   * [Reverse Order Storage](linked-list/reverse-order-storage.md)
+  * [Linked List Weighted Sum In Reverse Order](linked-list/linked-list-weighted-sum-in-reverse-order.md)
 * [Recursion](recursion.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
