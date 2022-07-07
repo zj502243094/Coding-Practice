@@ -3,6 +3,29 @@
 [https://www.lintcode.com/problem/822/](https://www.lintcode.com/problem/822/)\
 
 
+> Description
+>
+> Give a linked list, and store the values of linked list **in reverse order** into an array.
+>
+> * You **can not change** the structure of the original linked list.
+> * ListNode have two elements: ListNode.val and ListNode.next
+>
+> Example
+>
+> **Example1**
+>
+> ```
+> Input: 1 -> 2 -> 3 -> null
+> Output: [3,2,1]
+> ```
+>
+> **Example2**
+>
+> ```
+> Input: 4 -> 2 -> 1 -> null
+> Output: [1,2,4]
+> ```
+
 ```
 public class Solution {
     /**
