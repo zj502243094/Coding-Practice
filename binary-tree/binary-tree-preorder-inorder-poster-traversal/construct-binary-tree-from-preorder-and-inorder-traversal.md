@@ -39,3 +39,27 @@ class Solution {
     }
 }
 ```
+
+{% hint style="info" %}
+
+{% endhint %}
+
+```
+class Solution {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        return build(preorder, inorder, 0, 0, inorder.length - 1);
+    }
+    private TreeNode build(int[] preorder, int[] inorder, int preS, int inS, int inE){
+        if(inS > inE) return null;
+        TreeNode root = new TreeNode(preorder[preS]);
+        int index = -1;
+        for(int i = 0; i < inorder.length; i++){
+            if(inorder[i] == root.val) index = i;
+        }
+        
+        root.left = build(preorder, inorder, preS + 1, inS, index - 1);
+        root.right = build(preorder, inorder, preS + index - inS + 1 , index + 1, inE);
+        return root;
+    }
+}
+```
