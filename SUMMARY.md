@@ -60,6 +60,7 @@
     * [Path Sum](binary-tree/path-sum/path-sum.md)
     * [Path Sum II](binary-tree/path-sum/path-sum-ii.md)
   * [LCA](binary-tree/lca.md)
+  * [BST](binary-tree/bst.md)
 * [Recursion](recursion.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
