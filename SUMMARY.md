@@ -64,6 +64,7 @@
     * [Delete Node in a BST](binary-tree/bst/delete-node-in-a-bst.md)
     * [Trim a Binary Search Tree](binary-tree/bst/trim-a-binary-search-tree.md)
     * [Insert into a Binary Search Tree](binary-tree/bst/insert-into-a-binary-search-tree.md)
+    * [Validate Binary Search Tree](binary-tree/bst/validate-binary-search-tree.md)
 * [Recursion](recursion.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
