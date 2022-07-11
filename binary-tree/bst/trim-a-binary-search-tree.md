@@ -30,6 +30,8 @@
 1. 如果 root.val < min 直接对root.right进行修剪&#x20;
 2. 如果 root.val > max 直接对root.left进行修剪
 3. root.val 在之间 对左右进行trim
+
+![](<../../.gitbook/assets/image (10).png>)
 {% endhint %}
 
 ```

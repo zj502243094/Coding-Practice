@@ -13,7 +13,7 @@
 >
 > **Example 1:**
 >
-> ![](https://assets.leetcode.com/uploads/2020/09/04/del\_node\_1.jpg)![](<../../.gitbook/assets/image (11).png>)
+> ![](https://assets.leetcode.com/uploads/2020/09/04/del\_node\_1.jpg)![](<../../.gitbook/assets/image (11) (1).png>)
 
 {% hint style="info" %}
 BST 满足 左根右 从大到小顺序
