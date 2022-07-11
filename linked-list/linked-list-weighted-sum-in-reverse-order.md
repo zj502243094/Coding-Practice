@@ -1,7 +1,6 @@
 # Linked List Weighted Sum In Reverse Order
 
-[https://www.lintcode.com/problem/786/](https://www.lintcode.com/problem/786/)\
-
+[https://www.lintcode.com/problem/786/](https://www.lintcode.com/problem/786/)
 
 > Description
 >
