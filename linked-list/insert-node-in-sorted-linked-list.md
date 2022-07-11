@@ -27,10 +27,10 @@ public class Solution {
      */
     public ListNode insertNode(ListNode head, int val) {
         ListNode newNode = new ListNode(val);
+        ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode cur = dummy;
 
-        ListNode dummy = new ListNode(0);
         while(cur.next != null && cur.next.val <= val){
             cur = cur.next;
         }
