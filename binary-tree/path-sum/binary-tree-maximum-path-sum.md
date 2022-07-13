@@ -32,6 +32,18 @@
 > Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 42.
 > ```
 
+{% hint style="info" %}
+traversal every nodes as the top of sub tree
+
+根节点，和最大的路径有三种选择&#x20;
+
+– 左子树中和最大的路径&#x20;
+
+– 右子树中和最大的路径&#x20;
+
+– 左子树中和最大的单路径+右子树中和最大的单路径+根节点的值
+{% endhint %}
+
 ```
 class Solution {
     int maxSum = Integer.MIN_VALUE;
@@ -39,16 +51,16 @@ class Solution {
         getMax(root);
         return maxSum;
     }
-    private int getMax(TreeNode root){
-        if(root == null) return 0;
-        int left = getMax(root.left);
-        int right = getMax(root.right);
+    private int getMax(TreeNode p){
+        if(p == null) return 0;
+        int left = getMax(p.left);
+        int right = getMax(p.right);
         
-        maxSum = Math.max(maxSum, root.val);
-        maxSum = Math.max(maxSum, left + root.val);
-        maxSum = Math.max(maxSum, right + root.val);
-        maxSum = Math.max(maxSum, left + right + root.val);
-        return Math.max(Math.max(left, right), 0) + root.val;
+        maxSum = Math.max(maxSum, p.val);
+        maxSum = Math.max(maxSum, left + p.val);
+        maxSum = Math.max(maxSum, right + p.val);
+        maxSum = Math.max(maxSum, left + right + p.val);
+        return Math.max(Math.max(left, right), 0) + p.val;
     }
 }
 ```
