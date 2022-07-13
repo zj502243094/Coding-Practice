@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/path-sum/](https://leetcode.com/problems/path-sum/)
 
+判断从root到叶子是否有路径== target
+
 > Given the `root` of a binary tree and an integer `targetSum`, return `true` if the tree has a **root-to-leaf** path such that adding up all the values along the path equals `targetSum`.
 >
 > A **leaf** is a node with no children.

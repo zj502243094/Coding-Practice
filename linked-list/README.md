@@ -29,4 +29,4 @@ Dummy Node 自己定义的一个虚拟的链表头
 
 ![](<../.gitbook/assets/image (3) (1).png>)
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)

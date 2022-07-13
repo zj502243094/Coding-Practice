@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/path-sum-ii/](https://leetcode.com/problems/path-sum-ii/)
 
+返回从根到叶子和== target的路径
+
 > Given the `root` of a binary tree and an integer `targetSum`, return _all **root-to-leaf** paths where the sum of the node values in the path equals_ `targetSum`_. Each path should be returned as a list of the node **values**, not node references_.
 >
 > A **root-to-leaf** path is a path starting from the root and ending at any leaf node. A **leaf** is a node with no children.
