@@ -2,7 +2,7 @@
 
 [https://leetcode.com/problems/binary-tree-maximum-path-sum/](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
-求二叉树中从任意1dsa dsa向下的和最大的一条路径
+求二叉树中从任意 开始/  结束的和为 最大的一条路径
 
 > A **path** in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence **at most once**. Note that the path does not need to pass through the root.
 >
@@ -31,3 +31,24 @@
 > Output: 42
 > Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 42.
 > ```
+
+```
+class Solution {
+    int maxSum = Integer.MIN_VALUE;
+    public int maxPathSum(TreeNode root) {
+        getMax(root);
+        return maxSum;
+    }
+    private int getMax(TreeNode root){
+        if(root == null) return 0;
+        int left = getMax(root.left);
+        int right = getMax(root.right);
+        
+        maxSum = Math.max(maxSum, root.val);
+        maxSum = Math.max(maxSum, left + root.val);
+        maxSum = Math.max(maxSum, right + root.val);
+        maxSum = Math.max(maxSum, left + right + root.val);
+        return Math.max(Math.max(left, right), 0) + root.val;
+    }
+}
+```
