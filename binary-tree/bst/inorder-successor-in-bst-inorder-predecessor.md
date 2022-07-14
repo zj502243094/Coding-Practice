@@ -1,4 +1,4 @@
-# Inorder Successor in BST
+# Inorder Successor in BST / Inorder Predecessor
 
 在一个BST里面 找到一个节点的后继 后继 是正好比他大的节点
 
@@ -66,6 +66,28 @@ class Solution {
             }
         }
         return res;
+    }
+}
+```
+
+> Predecessor: 前驱
+
+```
+public class Solution {
+    /**
+     * @param root: the given BST
+     * @param p: the given node
+     * @return: the in-order predecessor of the given node in the BST
+     */
+    public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
+        if(root == null || p == null) return null;
+        if(root.val < p.val){
+            TreeNode rightMax = inorderPredecessor(root.right, p);
+            if(rightMax == null) return root;
+            else return rightMax;
+        }else{
+            return inorderPredecessor(root.left, p);
+        }
     }
 }
 ```
