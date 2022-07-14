@@ -71,6 +71,8 @@
     * [Trim a Binary Search Tree](binary-tree/bst/trim-a-binary-search-tree.md)
     * [Insert into a Binary Search Tree](binary-tree/bst/insert-into-a-binary-search-tree.md)
     * [Validate Binary Search Tree](binary-tree/bst/validate-binary-search-tree.md)
+    * [Kth Smallest Element in a BST](binary-tree/bst/kth-smallest-element-in-a-bst.md)
+    * [Convert BST to Greater Tree](binary-tree/bst/convert-bst-to-greater-tree.md)
   * [Minimum Subtree / Maximum Subtree](binary-tree/minimum-subtree-maximum-subtree.md)
   * [Maximum Average Subtree](binary-tree/maximum-average-subtree.md)
   * [Balanced Binary Tree](binary-tree/balanced-binary-tree.md)
