@@ -29,12 +29,10 @@
 > ```
 
 {% hint style="info" %}
-root <= p 右子树&#x20;
+root <= p    找右子树&#x20;
 
-root > p root 或左子树
+root > p     找root 或左子树
 {% endhint %}
-
-
 
 ```
 class Solution {
@@ -72,6 +70,12 @@ class Solution {
 
 > Predecessor: 前驱
 
+{% hint style="info" %}
+root >= p    找左子树&#x20;
+
+root < p     找root 或右子树
+{% endhint %}
+
 ```
 public class Solution {
     /**
@@ -81,12 +85,12 @@ public class Solution {
      */
     public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
         if(root == null || p == null) return null;
-        if(root.val < p.val){
+        if(root.val >= p.val){
+            return inorderPredecessor(root.left, p);
+        }else{
             TreeNode rightMax = inorderPredecessor(root.right, p);
             if(rightMax == null) return root;
             else return rightMax;
-        }else{
-            return inorderPredecessor(root.left, p);
         }
     }
 }
