@@ -42,6 +42,10 @@
 > [12,20,22]
 > ```
 
+{% hint style="info" %}
+root.val > k1 向左找  root.val < k2 向右找 找到 K1 K2的范围 之间的加上
+{% endhint %}
+
 ```
 public class Solution {
     List<Integer> res = new ArrayList<>();
