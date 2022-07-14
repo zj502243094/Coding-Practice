@@ -24,6 +24,10 @@
 > Output: 3
 > ```
 
+{% hint style="info" %}
+中序遍历 这个数 就是排序过的&#x20;
+{% endhint %}
+
 ```
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
