@@ -84,6 +84,7 @@
   * [Minimum Subtree / Maximum Subtree](binary-tree/minimum-subtree-maximum-subtree.md)
   * [Maximum Average Subtree](binary-tree/maximum-average-subtree.md)
   * [Balanced Binary Tree](binary-tree/balanced-binary-tree.md)
+  * [Same Tree](binary-tree/same-tree.md)
 * [Recursion](recursion.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
