@@ -43,7 +43,7 @@ class Solution {
 2\. 非完美二叉树
 
 {% hint style="info" %}
-first right tree then left tree make sure that the rightmost nodes in the same level will always get connected.
+先右后左保证最右边的node 都能被连上
 {% endhint %}
 
 ```
