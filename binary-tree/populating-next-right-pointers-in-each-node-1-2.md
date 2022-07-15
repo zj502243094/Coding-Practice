@@ -42,6 +42,10 @@ class Solution {
 
 2\. 非完美二叉树
 
+{% hint style="info" %}
+first right tree then left tree make sure that the rightmost nodes in the same level will always get connected.
+{% endhint %}
+
 ```
 class Solution {
     public Node connect(Node root) {
