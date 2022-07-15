@@ -18,6 +18,10 @@
 > Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3].
 > ```
 
+{% hint style="info" %}
+找到左右最大深度 连起来就是 直径
+{% endhint %}
+
 ```
 class Solution {
     int sum = 0;
