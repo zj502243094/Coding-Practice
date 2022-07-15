@@ -1,6 +1,7 @@
 # Binary Tree Right Side View
 
-[https://leetcode.com/problems/binary-tree-right-side-view/](https://leetcode.com/problems/binary-tree-right-side-view/)
+[https://leetcode.com/problems/binary-tree-right-side-view/](https://leetcode.com/problems/binary-tree-right-side-view/)\
+只返回tree 最右侧node
 
 > Given the `root` of a binary tree, imagine yourself standing on the **right side** of it, return _the values of the nodes you can see ordered from top to bottom_.
 >
@@ -14,6 +15,10 @@
 > Input: root = [1,2,3,null,5,null,4]
 > Output: [1,3,4]
 > ```
+
+{% hint style="info" %}
+按找到当前行 先找右边 同时行数+1
+{% endhint %}
 
 ```
 class Solution {

@@ -56,6 +56,7 @@
   * [Find Leaves of Binary Tree](binary-tree/find-leaves-of-binary-tree.md)
   * [Binary Tree Upside Down](binary-tree/binary-tree-upside-down.md)
   * [Binary Tree Right Side View](binary-tree/binary-tree-right-side-view.md)
+  * [Populating Next Right Pointers in Each Node 1 / 2](binary-tree/populating-next-right-pointers-in-each-node-1-2.md)
   * [Binary Tree Preorder / Inorder / Poster Traversal](binary-tree/binary-tree-preorder-inorder-poster-traversal/README.md)
     * [Construct Binary Tree from Preorder and Inorder Traversal](binary-tree/binary-tree-preorder-inorder-poster-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.md)
     * [Construct Binary Tree from Inorder and Postorder Traversal](binary-tree/binary-tree-preorder-inorder-poster-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.md)
