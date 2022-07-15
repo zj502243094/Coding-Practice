@@ -6,7 +6,7 @@
 
 中序遍历（Inorder traversal）左根右
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 后序遍历（Postorder traversal） 左右根 1 4 7 6 3 13 14 10 8
 
