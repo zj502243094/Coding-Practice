@@ -89,6 +89,7 @@
   * [Subtree of Another Tree](binary-tree/subtree-of-another-tree.md)
 * [Sort](sort/README.md)
   * [Sort an Array](sort/sort-an-array.md)
+  * [Reverse Pairs](sort/reverse-pairs.md)
 * [Recursion](recursion.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
