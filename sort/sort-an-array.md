@@ -38,7 +38,7 @@ class Solution {
         int[] tmp = new int[right - left + 1];
         int i = left, j = mid + 1;
         for(int k = 0; k < tmp.length; k++){
-            if(i <= mid && (nums[i] <= nums[j] || j > right)){
+            if(i <= mid && (j > right || nums[i] <= nums[j])){
                 tmp[k] = nums[i++];
             }else{
                 tmp[k] = nums[j++];

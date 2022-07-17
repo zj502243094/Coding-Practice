@@ -1,6 +1,7 @@
 # Reverse Pairs
 
-前面数比 后面数大为 逆序对
+前面数比 后面数大为 逆序对\
+[https://www.lintcode.com/problem/532/](https://www.lintcode.com/problem/532/)
 
 > Two numbers in the array, if the previous number is greater than the following number, then the two numbers form a reverse order pair. Give you an array, find out the total number of reverse order pairs in this array.\
 > Summary: if a \[i] > a \[j] and i < j, a \[i] and a \[j] form a reverse order pair.
