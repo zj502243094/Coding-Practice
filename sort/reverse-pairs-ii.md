@@ -23,6 +23,11 @@
 > Output: 3
 > ```
 
+{% hint style="info" %}
+第一问 是因为 排序 和比较是同一个逻辑 都是 num\[i] 和nums\[j] 直接比较\
+第二问 merge 和 比较 是不同逻辑 nums\[i] > `2 * nums[j]`&#x20;
+{% endhint %}
+
 ```
 class Solution {
     public int reversePairs(int[] nums) {
