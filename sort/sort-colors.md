@@ -58,6 +58,10 @@ class Solution {
 }
 ```
 
+{% hint style="info" %}
+left&#x20;
+{% endhint %}
+
 ```
 class Solution {
     public void sortColors(int[] nums) {
