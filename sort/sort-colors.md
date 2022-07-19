@@ -23,3 +23,13 @@
 > Input: nums = [2,0,1]
 > Output: [0,1,2]
 > ```
+
+{% hint style="info" %}
+1. 先将 1 作为 pivot 然后 再讲 2  作为 pivot\
+   &#x20;![](<../.gitbook/assets/image (5).png>)
+
+2\. 记录 有几个0 几个1 几个2 然后 填上。
+
+\
+
+{% endhint %}

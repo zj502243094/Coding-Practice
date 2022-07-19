@@ -25,7 +25,7 @@
 {% hint style="info" %}
 1. find reverse head;
 2. reverse sublist;\
-   ![](<../.gitbook/assets/image (5).png>)
+   ![](<../.gitbook/assets/image (5) (1).png>)
 3. connect new sub Linked List\
    ![](<../.gitbook/assets/image (1) (1).png>)
 {% endhint %}
