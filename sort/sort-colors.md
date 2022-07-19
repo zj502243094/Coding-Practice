@@ -28,8 +28,62 @@
 1. 先将 1 作为 pivot 然后 再讲 2  作为 pivot\
    &#x20;![](<../.gitbook/assets/image (5).png>)
 
-2\. 记录 有几个0 几个1 几个2 然后 填上。
-
-\
-
+2\. 扫一遍记录 有几个0 几个1 几个2 然后 填上。
 {% endhint %}
+
+```
+class Solution {
+    public void sortColors(int[] nums) {
+        partition(nums, 1);
+        partition(nums, 2);
+    }
+    
+    public void partition(int[] nums, int pivot) {
+        if(nums == null || nums.length == 0) return;
+        int i = 0, j = nums.length - 1;
+        while(i <= j){
+            while(i <= j && nums[i] < pivot){
+                i++;
+            }
+            while(i <= j && nums[j] >= pivot){
+                j--;
+            }
+            if(i <= j){
+                int t = nums[i];
+                nums[i++] = nums[j];
+                nums[j--] = t;
+            }
+        }
+    }
+}
+```
+
+```
+class Solution {
+    public void sortColors(int[] nums) {
+        if(nums == null || nums.length == 0) return;
+        
+        int left = 0;
+        int right = nums.length - 1;
+        int i = 0;
+        
+        while(i <= right){
+            if(nums[i] == 0){
+                swap(nums, left, i);
+                left++;
+                i++;
+            }else if(nums[i] == 1){
+                i++;
+            }else{
+                swap(nums, right, i);
+                right--;
+            }
+        }
+    }
+    private void swap(int[] nums, int i, int j){
+        int t = nums[i];
+        nums[i] = nums[j];
+        nums[j] = t;
+    }
+}
+```
