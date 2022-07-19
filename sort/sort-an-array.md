@@ -76,8 +76,10 @@ class Solution {
             }
             if(i <= j){
                 int t = nums[i];
-                nums[i++] = nums[j];
-                nums[j--] = t;
+                nums[i] = nums[j];
+                nums[j] = t;
+                i++;
+                j--;
             }
         }
         quickSort(nums, left, j);
