@@ -2,7 +2,7 @@
 
 先序遍历（Preorder traversal）根左右
 
-<img src="../../.gitbook/assets/image (9).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (9) (1).png" alt="" data-size="original">
 
 中序遍历（Inorder traversal）左根右
 

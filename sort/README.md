@@ -79,3 +79,18 @@ public void sortIntegers(int[] A) {
 – 将左右两半分别排序（递归）&#x20;
 
 – 将排好序的两半数组合并（merge）
+
+![](../.gitbook/assets/image.png)
+
+
+
+快速排序（quick sort）
+
+– 把数组分为两边，使得：数组的左边小于等于数组的右边（左右两边长度 不一定相等）
+
+&#x20;– 对左右两部分数组分别排序（递归）
+
+partition边界 一定是\[left, j] \[i, right]
+
+![](<../.gitbook/assets/image (12).png>)![](<../.gitbook/assets/image (9).png>)
+

@@ -21,7 +21,7 @@ public class ListNode {
 
 链表与数组的比较
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 Dummy Node 自己定义的一个虚拟的链表头
 
