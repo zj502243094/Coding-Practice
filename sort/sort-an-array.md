@@ -53,7 +53,7 @@ class Solution {
 }
 ```
 
-快速排序
+快速排序  time  平均（nlog(n)）最坏（O（n^2）） space 平均（nlog(n)）最坏(O(n))
 
 ```
 class Solution {

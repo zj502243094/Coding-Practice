@@ -92,6 +92,7 @@
   * [Sort List](sort/sort-list.md)
   * [Reverse Pairs](sort/reverse-pairs.md)
   * [Reverse Pairs II](sort/reverse-pairs-ii.md)
+  * [Partition Array](sort/partition-array.md)
 * [Recursion](recursion.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)

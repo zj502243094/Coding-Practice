@@ -94,3 +94,5 @@ partition边界 一定是\[left, j] \[i, right]
 
 ![](<../.gitbook/assets/image (12).png>)![](<../.gitbook/assets/image (9).png>)
 
+![](<../.gitbook/assets/image (13).png>)![](<../.gitbook/assets/image (8).png>)
+
