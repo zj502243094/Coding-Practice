@@ -35,7 +35,7 @@ class Solution {
         if(nums == null || nums.length == 0) return res;
         
         int l = 0, r = nums.length - 1;
-        while(l < nums.length){
+        while(l < r){
             if(nums[r] + nums[l] < target){
                 l++;
             }else if(nums[r] + nums[l] > target){
