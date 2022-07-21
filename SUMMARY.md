@@ -106,5 +106,6 @@
   * [相向双指针](two-pointer/xiang-xiang-shuang-zhi-zhen.md)
     * [Two Sum - Unique pairs](two-pointer/xiang-xiang-shuang-zhi-zhen/two-sum-unique-pairs.md)
     * [Two Sum II - Input Array Is Sorted](two-pointer/xiang-xiang-shuang-zhi-zhen/two-sum-ii-input-array-is-sorted.md)
+    * [3Sum](two-pointer/xiang-xiang-shuang-zhi-zhen/3sum.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
