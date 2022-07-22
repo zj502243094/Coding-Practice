@@ -82,6 +82,7 @@
     * [Convert BST to Greater Tree](binary-tree/bst/convert-bst-to-greater-tree.md)
     * [Inorder Successor in BST / Inorder Predecessor](binary-tree/bst/inorder-successor-in-bst-inorder-predecessor.md)
     * [Search Range in Binary Search Tree](binary-tree/bst/search-range-in-binary-search-tree.md)
+    * [Closest Binary Search Tree Value](binary-tree/bst/closest-binary-search-tree-value.md)
   * [Minimum Subtree / Maximum Subtree](binary-tree/minimum-subtree-maximum-subtree.md)
   * [Maximum Average Subtree](binary-tree/maximum-average-subtree.md)
   * [Balanced Binary Tree](binary-tree/balanced-binary-tree.md)
