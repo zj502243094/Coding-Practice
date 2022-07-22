@@ -22,7 +22,9 @@ BST 满足 左根右 从大到小顺序
 2. root.val == key&#x20;
    1. 如果root 左右都是空 直接null 删除
    2. 如果左或右为空 直接返回root.left / right
-   3. 左右都不为空 在左边找到最大的值 填到root 并且 root.left 要删一遍找到的值
+   3. 左右都不为空&#x20;
+      1. &#x20;在左边找到最大的值 填到root 并且 root.left 要删一遍找到的值&#x20;
+      2. 在左边找 max  或者在右边找min 返回
 {% endhint %}
 
 ```
