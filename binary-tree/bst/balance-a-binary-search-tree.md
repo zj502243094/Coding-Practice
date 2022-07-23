@@ -30,5 +30,32 @@
 > ```
 
 {% hint style="info" %}
-1
+上一题 套的 先将 BST 压平成 sorted array 然后再建成BST；
 {% endhint %}
+
+```
+class Solution {
+    public TreeNode balanceBST(TreeNode root) {
+        if(root == null) return null;
+        List<Integer> nums = new ArrayList<>();
+        helper(root, nums);
+        return build(nums, 0, nums.size() - 1);
+    }
+    
+    private void helper(TreeNode root, List<Integer> nums){
+        if(root == null) return;
+        helper(root.left, nums);
+        nums.add(root.val);
+        helper(root.right, nums);
+    }
+    
+    private TreeNode build(List<Integer> nums, int left, int right){
+        if(left > right) return null;
+        int mid = (right - left) / 2 + left;
+        TreeNode root = new TreeNode(nums.get(mid));
+        root.left = build(nums, left, mid - 1);
+        root.right = build(nums, mid + 1, right);
+        return root;
+    }
+}
+```
