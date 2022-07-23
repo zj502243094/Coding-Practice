@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/closest-binary-search-tree-value/](https://leetcode.com/problems/closest-binary-search-tree-value/)
 
+找到 和目标值距离最近的node
+
 > Given the `root` of a binary search tree and a `target` value, return _the value in the BST that is closest to the_ `target`.
 >
 > &#x20;
@@ -21,6 +23,12 @@
 > Input: root = [1], target = 4.428571
 > Output: 1
 > ```
+
+{% hint style="info" %}
+target 比root小 向左走\
+target 比root大 向右走\
+保留相差的最小值
+{% endhint %}
 
 ```
 class Solution {

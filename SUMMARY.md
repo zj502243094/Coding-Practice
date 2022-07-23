@@ -85,6 +85,7 @@
     * [Closest Binary Search Tree Value](binary-tree/bst/closest-binary-search-tree-value.md)
     * [Recover Binary Search Tree](binary-tree/bst/recover-binary-search-tree.md)
     * [Convert Sorted Array to Binary Search Tree](binary-tree/bst/convert-sorted-array-to-binary-search-tree.md)
+    * [Balance a Binary Search Tree](binary-tree/bst/balance-a-binary-search-tree.md)
   * [Minimum Subtree / Maximum Subtree](binary-tree/minimum-subtree-maximum-subtree.md)
   * [Maximum Average Subtree](binary-tree/maximum-average-subtree.md)
   * [Balanced Binary Tree](binary-tree/balanced-binary-tree.md)

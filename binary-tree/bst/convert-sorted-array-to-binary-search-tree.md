@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
+排序过的数组 转成 BST&#x20;
+
 > Given an integer array `nums` where the elements are sorted in **ascending order**, convert _it to a **height-balanced** binary search tree_.
 >
 > A **height-balanced** binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.
