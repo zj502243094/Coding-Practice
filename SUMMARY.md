@@ -119,6 +119,7 @@
     * [3Sum](two-pointer/xiang-xiang-shuang-zhi-zhen/3sum.md)
 * [Queue](queue/README.md)
   * [Implement Queue using Stacks](queue/implement-queue-using-stacks.md)
-* [Stack](stack.md)
+* [Stack](stack/README.md)
+  * [Implement Stack using Queues](stack/implement-stack-using-queues.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)

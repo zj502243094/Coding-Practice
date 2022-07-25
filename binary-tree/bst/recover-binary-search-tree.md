@@ -26,6 +26,12 @@
 > Explanation: 2 cannot be in the right subtree of 3 because 2 < 3. Swapping 2 and 3 makes the BST valid.
 > ```
 
+{% hint style="info" %}
+BST inorder 顺序下都应该是递增的， \
+所以root.val 都应该比 pre.val大  \
+如果出现了 存做第一个数  继续遍历找到的为第二个 然后交换
+{% endhint %}
+
 ```
 class Solution {
     TreeNode pre = null;
