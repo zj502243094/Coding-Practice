@@ -117,5 +117,8 @@
     * [Two Sum Less Than K](two-pointer/xiang-xiang-shuang-zhi-zhen/two-sum-less-than-k.md)
     * [Triangle Count / Valid Triangle Number](two-pointer/xiang-xiang-shuang-zhi-zhen/triangle-count-valid-triangle-number.md)
     * [3Sum](two-pointer/xiang-xiang-shuang-zhi-zhen/3sum.md)
+* [Queue](queue/README.md)
+  * [Implement Queue using Stacks](queue/implement-queue-using-stacks.md)
+* [Stack](stack.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
