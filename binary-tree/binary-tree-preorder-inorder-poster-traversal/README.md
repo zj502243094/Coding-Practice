@@ -1,4 +1,4 @@
-# Binary Tree Preorder / Inorder / Poster Traversal
+# Binary Tree  Traversal
 
 先序遍历（Preorder traversal）根左右
 
