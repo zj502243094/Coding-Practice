@@ -29,6 +29,48 @@
 > myQueue.empty(); // return false
 > ```
 
+{% hint style="info" %}
+Queue 是FIFO Stack 是LIFO 所以push是向S1 弹出的时候 用S2弹\
+\
+比如 \[1 2 3] push 到 S1 \[1 2 3]  \
+从S1出来pop到S2就是\[3 2 1]&#x20;
+
+从S2弹出来就是 \[1 2 3]    实现了队列的先入先出
+{% endhint %}
+
 ```
-// Some code
+class MyQueue {
+    
+    Stack<Integer> s1 = new Stack();
+    Stack<Integer> s2 = new Stack();
+
+    public MyQueue() {
+        
+    }
+    
+    public void push(int x) {
+        while(!s2.isEmpty()){
+            s1.push(s2.pop());
+        }
+        s1.push(x);
+    }
+    
+    public int pop() {
+        while(!s1.isEmpty()){
+            s2.push(s1.pop());
+        }
+        return s2.pop();
+    }
+    
+    public int peek() {
+        while(!s1.isEmpty()){
+            s2.push(s1.pop());
+        }
+        return s2.peek();
+    }
+    
+    public boolean empty() {
+        return s1.isEmpty() && s2.isEmpty();
+    }
+}
 ```
