@@ -1,0 +1,41 @@
+# Largest Rectangle in Histogram
+
+[https://leetcode.com/problems/largest-rectangle-in-histogram/](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+> Given an array of integers `heights` representing the histogram's bar height where the width of each bar is `1`, return _the area of the largest rectangle in the histogram_.
+>
+> &#x20;
+>
+> **Example 1:**
+>
+> ![](https://assets.leetcode.com/uploads/2021/01/04/histogram.jpg)
+>
+> ```
+> Input: heights = [2,1,5,6,2,3]
+> Output: 10
+> Explanation: The above is a histogram where width of each bar is 1.
+> The largest rectangle is shown in the red area, which has an area = 10 units.
+> ```
+>
+> **Example 2:**
+>
+> ![](https://assets.leetcode.com/uploads/2021/01/04/histogram-1.jpg)
+>
+> ```
+> Input: heights = [2,4]
+> Output: 4
+> ```
+
+{% hint style="info" %}
+穷举 柱子 分别找到左右比本身矮的柱子\
+当柱子 i j  i < j && h\[i] >= h\[j] i 不可能是 后面柱子的左边界  所以候选左边界list 只能是单调递增的（因为 不满足这个性质的柱子 会被删掉不可能作为左边界）\
+![](<../.gitbook/assets/image (10).png>)\
+![](<../.gitbook/assets/image (13).png>)\
+同样方法可以求出右边界 就可以求出 cur 柱子 的面积\
+每个 柱子 在每次循环中 进入 弹出各一次 所以 time O（n）\
+\
+
+{% endhint %}
+
+```
+```

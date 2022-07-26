@@ -31,7 +31,7 @@
 2. 如果 root.val > max 直接对root.left进行修剪
 3. root.val 在之间 对左右进行trim
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1).png>)
 {% endhint %}
 
 ```
