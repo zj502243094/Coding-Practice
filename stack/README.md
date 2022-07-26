@@ -8,6 +8,8 @@ Java has a class called java.util.Stack:
 
 `pop()`, `push()`
 
+The [peek()](https://www.geeksforgeeks.org/priorityqueue-peek-method-in-java/) method only retrieved the element at the head but the poll() also removes the element along with the retrieval. It returns NULL if the queue is empty.
+
 ```java
 // "static void main" must be defined in a public class.
 public class Main {

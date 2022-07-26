@@ -123,5 +123,7 @@
 * [Stack](stack/README.md)
   * [Implement Stack using Queues](stack/implement-stack-using-queues.md)
   * [Valid Parentheses](stack/valid-parentheses.md)
+  * [Min Stack](stack/min-stack.md)
+  * [Max Stack](stack/max-stack.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
