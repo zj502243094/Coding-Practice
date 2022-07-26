@@ -127,6 +127,7 @@
   * [Min Stack](stack/min-stack.md)
   * [Max Stack](stack/max-stack.md)
   * [Evaluate Reverse Polish Notation](stack/evaluate-reverse-polish-notation.md)
+  * [Binary Search Tree Iterator](stack/binary-search-tree-iterator.md)
   * [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
