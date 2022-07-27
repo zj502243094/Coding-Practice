@@ -129,5 +129,8 @@
   * [Evaluate Reverse Polish Notation](stack/evaluate-reverse-polish-notation.md)
   * [Binary Search Tree Iterator](stack/binary-search-tree-iterator.md)
   * [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram.md)
+* [Hash](hash/README.md)
+  * [Two Sum](hash/two-sum.md)
+  * [Group Anagrams](hash/group-anagrams.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
