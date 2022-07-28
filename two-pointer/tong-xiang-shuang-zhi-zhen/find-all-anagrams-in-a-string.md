@@ -54,3 +54,36 @@ class Solution {
     }
 }
 ```
+
+```
+class Solution {
+    public List<Integer> findAnagrams(String s, String p) {
+        List<Integer> res = new ArrayList<>();
+        Map<Character, Integer> map = new HashMap();
+        for (char c : p.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+        int target = map.size();
+        
+        int l = 0, r = 0;
+        while(r < s.length()) {
+            char c = s.charAt(r);
+            if (map.containsKey(c)) {
+                map.put(c, map.get(c) - 1);
+                if (map.get(c) == 0) target--;
+            }
+            r++;
+            while (target == 0) {
+                char tmpc = s.charAt(l);
+                if(map.containsKey(tmpc)){
+                    map.put(tmpc, map.get(tmpc) + 1);
+                    if (map.get(tmpc) > 0) target++;
+                }
+                if(r - l == p.length()) res.add(l);
+                l++;
+            }
+        }
+        return res;
+    }
+}
+```
