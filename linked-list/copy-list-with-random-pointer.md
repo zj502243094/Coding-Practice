@@ -32,6 +32,37 @@
 > ```
 
 {% hint style="info" %}
+建一个 node 和 copyNode 的 map\
+1\. copy all node\
+2\. copy next 和 random&#x20;
+{% endhint %}
+
+```
+class Solution {
+    public Node copyRandomList(Node head) {
+        if(head == null) return null;
+        Map<Node, Node> map = new HashMap();
+        
+        Node node = head;
+        while (node != null) {
+            map.put(node, new Node(node.val));
+            node = node.next;
+        }
+        
+        node = head;
+        while (node != null) {
+            map.get(node).next = map.get(node.next);
+            map.get(node).random = map.get(node.random);
+            node = node.next;
+        }
+        return map.get(head);
+    }
+}
+```
+
+
+
+{% hint style="info" %}
 1. \[1 ->1' -> 2 ->2' -> 3]    copy next&#x20;
 2. \[1 => 3] \[1' => 3']   copy random
 3. split \[1 ->1' -> 2 ->2' -> 3] to \[1' -> 2' -> 3']&#x20;
