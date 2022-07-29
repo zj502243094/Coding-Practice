@@ -25,3 +25,58 @@
 >  1  3  -1  -3 [5  3  6] 7       6
 >  1  3  -1  -3  5 [3  6  7]      7
 > ```
+
+{% hint style="info" %}
+each element `nums[i]` in the array that we are about to insert
+
+1. first check whether the leftmost index in the sliding window is out of bound
+2. remove the rightmost indices if their corresponding elements are less than `nums[i]`
+{% endhint %}
+
+```
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int n = nums.length;
+        if(n == 0 || k == 0) return new int[0];
+        int[] res = new int[n - k + 1];
+        Deque<Integer> dq = new ArrayDeque<>();
+        
+        for (int i = 0; i < n; i++) {
+            while (!dq.isEmpty() && dq.peekFirst() <= i - k) {
+                dq.pollFirst();
+            }
+            while (!dq.isEmpty() && nums[dq.peekLast()] < nums[i]) {
+                dq.pollLast();
+            }
+            dq.offerLast(i);  // == dq.offer(i);
+            if (i >= k - 1) {
+                res[i - k + 1] = nums[dq.peekFirst()];
+            }
+        }
+        return res;
+    }
+}
+```
+
+```
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int n = nums.length;
+        if (n == 0 || k == 0) return new int[0];
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        int[] res = new int[n - k + 1];
+        
+        for (int i = 0; i < n; i++) {
+            int start = i - k;
+            if (start >= 0) {
+                pq.remove(nums[start]);
+            }
+            pq.offer(nums[i]);
+            if (pq.size() == k) {
+                res[i - k + 1] = pq.peek();
+            }
+        }
+        return res;
+    }
+}
+```
