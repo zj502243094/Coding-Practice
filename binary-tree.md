@@ -28,7 +28,7 @@ A **perfect** binary tree is a tree with all leaves are at the same level, and e
 
 碰到二叉树的问题，就想想整棵树在该问题上的结果 和左右儿子在该问题上的结果之间的联系是什么
 
-![](<.gitbook/assets/image (11).png>)
+![](<.gitbook/assets/image (11) (2).png>)
 
 
 

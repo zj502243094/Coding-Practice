@@ -18,6 +18,7 @@
   * [Reverse Words in a String](string/reverse-words-in-a-string.md)
   * [Reverse Words in a String II](string/reverse-words-in-a-string-ii.md)
   * [Reverse Words in a String II](string/reverse-words-in-a-string-ii-1.md)
+  * [First Unique Character in a String](string/first-unique-character-in-a-string.md)
 * [Binary Search](binary-search/README.md)
   * [二分位置OOXX](binary-search/er-fen-wei-zhi-ooxx/README.md)
     * [First Bad Version](binary-search/first-bad-version.md)
