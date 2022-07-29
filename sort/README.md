@@ -80,7 +80,7 @@ public void sortIntegers(int[] A) {
 
 – 将排好序的两半数组合并（merge）
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (12).png>)
 
 
 
@@ -92,7 +92,7 @@ public void sortIntegers(int[] A) {
 
 partition边界 一定是\[left, j] \[i, right]
 
-![](<../.gitbook/assets/image (12).png>)![](<../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (12) (1).png>)![](<../.gitbook/assets/image (9) (1).png>)
 
 ![](<../.gitbook/assets/image (13) (1).png>)![](<../.gitbook/assets/image (8).png>)
 

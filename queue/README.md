@@ -42,3 +42,15 @@ public class Main {
 ```
 
 In Java, **Queue** interface, with a couple of implementation e.g. **BlockingQueue**, **LinkedList**, and **PriorityQueue**.
+
+
+
+The Deque is related to the double-ended queue that supports the addition or removal of elements from either end of the data structure. It can either be used as a [queue(first-in-first-out/FIFO)](https://www.geeksforgeeks.org/queue/) or as a [stack(last-in-first-out/LIFO)](https://www.geeksforgeeks.org/stack/).
+
+```
+ Deque<Integer> dq = new ArrayDeque<>();
+```
+
+![](<../.gitbook/assets/image (2).png>)
+
+对于添加元素到队尾的操作，`Queue`提供了`add()`/`offer()`方法，而`Deque`提供了`addLast()`/`offerLast()`方法。添加元素到对首、取队尾元素的操作在`Queue`中不存在，在`Deque`中由`addFirst()`/`removeLast()`等方法提供。
