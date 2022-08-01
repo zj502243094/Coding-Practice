@@ -18,10 +18,6 @@
 > Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 > ```
 
-{% hint style="info" %}
-建一个 map 存 数字 和 其位置
-{% endhint %}
-
 ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
