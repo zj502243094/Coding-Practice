@@ -31,6 +31,10 @@
 > Output: 3
 > ```
 
+{% hint style="info" %}
+记录快指针每个位置对应字母出现个数 当出现次数大于1 慢指针开始移动 指导出现次数==1
+{% endhint %}
+
 ```
 class Solution {
     public int lengthOfLongestSubstring(String s) {

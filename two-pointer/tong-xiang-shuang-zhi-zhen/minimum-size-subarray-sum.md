@@ -3,6 +3,8 @@
 [https://leetcode.com/problems/minimum-size-subarray-sum/](https://leetcode.com/problems/minimum-size-subarray-sum/)\
 [https://www.lintcode.com/problem/406/](https://www.lintcode.com/problem/406/)
 
+给正数数组 返回最短的连续数组 和 大于或等于 target 的数组长度
+
 > Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a **contiguous subarray** `[numsl, numsl+1, ..., numsr-1, numsr]` of which the sum is greater than or equal to `target`. If there is no such subarray, return `0` instead.
 >
 > &#x20;

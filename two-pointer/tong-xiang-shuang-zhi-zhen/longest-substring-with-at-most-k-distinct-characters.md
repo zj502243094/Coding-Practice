@@ -22,6 +22,11 @@
 > Explanation: The substring is "aa" with length 2.
 > ```
 
+{% hint style="info" %}
+记录每个字符出现的次数 然后 出现过一次就将 代表有几个字母的sum++\
+超过K后 将左端点开始移动 直到 左端点字符出现数 为 0 然后 sum--； 变为K&#x20;
+{% endhint %}
+
 ```
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
