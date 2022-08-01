@@ -15,7 +15,3 @@ TreeSet(sorted)&#x20;
 The elements are ordered using their natural order(Ascending), or by Comparator when creation
 
 log(n) (add, remove and contains).
-
-floor(E e) 方法返回在这个集合中**小于**或者等于给定元素的**最大**元素，如果不存在这样的元素,返回null.
-
-ceiling(E e) 方法返回在这个集合中**大于**或者等于给定元素的**最小**元素，如果不存在这样的元素,返回null.
