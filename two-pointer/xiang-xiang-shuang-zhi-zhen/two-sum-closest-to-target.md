@@ -28,7 +28,9 @@
 > The minimum difference is 6. (4 - (- 1 - 1) = 6).
 > ```
 
-
+{% hint style="info" %}
+排序后 如果nums\[l] + nums\[r] < target 左端点动 否则右端点动
+{% endhint %}
 
 ```
 public class Solution {

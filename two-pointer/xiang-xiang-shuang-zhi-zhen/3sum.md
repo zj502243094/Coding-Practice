@@ -18,6 +18,8 @@
 
 {% hint style="info" %}
 设定nums\[i] 为 -target 然后就是 剩下两数和为target unique pairs
+
+在 == target 时候 要保证 L / R 不是重复的数字
 {% endhint %}
 
 ```
