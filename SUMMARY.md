@@ -17,7 +17,7 @@
   * [Reverse String / Reverse String II](string/reverse-string-reverse-string-ii.md)
   * [Reverse Words in a String](string/reverse-words-in-a-string.md)
   * [Reverse Words in a String II](string/reverse-words-in-a-string-ii.md)
-  * [Reverse Words in a String III](string/reverse-words-in-a-string-iii.md)
+  * [Reverse Words in a String II](string/reverse-words-in-a-string-ii-1.md)
   * [First Unique Character in a String](string/first-unique-character-in-a-string.md)
   * [Valid Word Abbreviation](string/valid-word-abbreviation.md)
 * [Binary Search](binary-search/README.md)
