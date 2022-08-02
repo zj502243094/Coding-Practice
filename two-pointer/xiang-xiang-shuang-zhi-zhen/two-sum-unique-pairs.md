@@ -31,7 +31,9 @@
 > ```
 
 {% hint style="info" %}
-当== target 时 res++; 并且 L++ 严重 L 和 L - 1 是否重复
+当== target 时 res++ 并且 L++&#x20;
+
+保证 L 和 L - 1 不重复&#x20;
 {% endhint %}
 
 ```
