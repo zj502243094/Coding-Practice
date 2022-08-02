@@ -2,7 +2,7 @@
 
 [https://leetcode.com/problems/unique-word-abbreviation/](https://leetcode.com/problems/unique-word-abbreviation/)
 
-唯一单词缩写 既要满足 单词缩写1d
+唯一单词缩写 既要满足 字典中单词缩写唯一 并且其他单词与给定单词缩写无相同
 
 > The **abbreviation** of a word is a concatenation of its first letter, the number of characters between the first and last letter, and its last letter. If a word has only two characters, then it is an **abbreviation** of itself.
 >
@@ -30,3 +30,29 @@
 > Output
 > [null, false, true, false, true, true]
 > ```
+
+```
+class ValidWordAbbr {
+    
+    Map<String, Integer> dict = new HashMap();
+    Map<String, Integer> abbr = new HashMap();
+
+    public ValidWordAbbr(String[] dictionary) {
+        for (String d : dictionary) {
+            dict.put(d, dict.getOrDefault(d, 0) + 1);
+            String a = makeAbbr(d);
+            abbr.put(a, abbr.getOrDefault(a, 0) + 1);
+        }
+    }
+    
+    public boolean isUnique(String word) {
+        String a = makeAbbr(word);
+        return dict.getOrDefault(word, 0) == abbr.getOrDefault(a, 0);
+    }
+    
+    private String makeAbbr(String s) {
+        if (s.length() <= 2) return s;
+        return s.substring(0, 1) + (s.length() - 2) + s.substring(s.length() - 1);
+    }
+}
+```
