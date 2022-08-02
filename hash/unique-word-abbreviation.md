@@ -31,6 +31,12 @@
 > [null, false, true, false, true, true]
 > ```
 
+{% hint style="info" %}
+单词唯一 并且 单纯缩写唯一
+
+所以用两个map 一个存单词 一个存缩写
+{% endhint %}
+
 ```
 class ValidWordAbbr {
     
