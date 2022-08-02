@@ -34,14 +34,6 @@
 > So the answer is C(3, 4) = 4
 > ```
 
-{% hint style="info" %}
-排序后 两短边之和 大于第三边&#x20;
-
-取一条 最长边 然后l = 0， r = i - 1&#x20;
-
-如果成立 r - l 之间所有数都满足三角形
-{% endhint %}
-
 ```
 class Solution {
     public int triangleNumber(int[] nums) {

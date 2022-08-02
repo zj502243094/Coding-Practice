@@ -142,5 +142,6 @@
   * [Jewels and Stones](hash/jewels-and-stones.md)
   * [Longest Consecutive Sequence](hash/longest-consecutive-sequence.md)
   * [Contains Duplicate 1 2 3](hash/contains-duplicate-1-2-3.md)
+  * [Word Abbreviation](hash/word-abbreviation.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
