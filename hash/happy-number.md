@@ -2,7 +2,7 @@
 
 [https://leetcode.com/problems/happy-number/](https://leetcode.com/problems/happy-number/)
 
-给一个正数 每位数的平方和 一只&#x20;
+给一个正数 每位数的平方和 一直相加   结果为1 就是happy
 
 > Write an algorithm to determine if a number `n` is happy.
 >
