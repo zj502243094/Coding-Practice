@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/single-number/](https://leetcode.com/problems/single-number/)
 
+找到单一的数
+
 > Given a **non-empty** array of integers `nums`, every element appears _twice_ except for one. Find that single one.
 >
 > You must implement a solution with a linear runtime complexity and use only constant extra space.
@@ -23,7 +25,7 @@
 > ```
 
 {% hint style="info" %}
-记录每个数出现次数。
+记录每个数出现次数。 找到出现次数== 1的就行了
 {% endhint %}
 
 ```
