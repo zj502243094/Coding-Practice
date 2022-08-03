@@ -150,5 +150,6 @@
   * [Word Abbreviation](hash/word-abbreviation.md)
   * [Unique Word Abbreviation](hash/unique-word-abbreviation.md)
   * [Single Number 1 2 3](hash/single-number-1-2-3.md)
+  * [Happy Number](hash/happy-number.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
