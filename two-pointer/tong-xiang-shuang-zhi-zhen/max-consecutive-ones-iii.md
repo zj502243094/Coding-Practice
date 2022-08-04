@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/max-consecutive-ones-iii/](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
+最多翻转K个数 最长连续为 1的
+
 > Given a binary array `nums` and an integer `k`, return _the maximum number of consecutive_ `1`_'s in the array if you can flip at most_ `k` `0`'s.
 >
 > &#x20;
