@@ -53,7 +53,7 @@ class ValidWordAbbr {
     
     public boolean isUnique(String word) {
         String a = makeAbbr(word);
-        return dict.getOrDefault(word, 0) == abbr.getOrDefault(a, 0);
+        return dict.get(word) == abbr.get(a);
     }
     
     private String makeAbbr(String s) {

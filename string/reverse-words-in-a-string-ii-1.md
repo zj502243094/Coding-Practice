@@ -1,6 +1,6 @@
-# Reverse Words in a String II
+# Reverse Words in a String III
 
-[https://leetcode.com/problems/reverse-words-in-a-string-ii/](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
+[https://leetcode.com/problems/reverse-words-in-a-string-iii/](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 > Given a string `s`, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
 >
