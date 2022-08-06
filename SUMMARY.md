@@ -160,5 +160,7 @@
   * [Kth Largest Element in a Stream](heap/kth-largest-element-in-a-stream.md)
   * [Top k Largest Numbers](heap/top-k-largest-numbers.md)
   * [Top K Frequent Elements](heap/top-k-frequent-elements.md)
+  * [Top K Frequent Words](heap/top-k-frequent-words.md)
+  * [K Closest Points to Origin](heap/k-closest-points-to-origin.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
