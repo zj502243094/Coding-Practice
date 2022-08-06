@@ -162,5 +162,6 @@
   * [Top K Frequent Elements](heap/top-k-frequent-elements.md)
   * [Top K Frequent Words](heap/top-k-frequent-words.md)
   * [K Closest Points to Origin](heap/k-closest-points-to-origin.md)
+  * [Kth Smallest Element in a Sorted Matrix](heap/kth-smallest-element-in-a-sorted-matrix.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
