@@ -159,5 +159,6 @@
   * [Kth Largest Element in an Array](heap/kth-largest-element-in-an-array.md)
   * [Kth Largest Element in a Stream](heap/kth-largest-element-in-a-stream.md)
   * [Top k Largest Numbers](heap/top-k-largest-numbers.md)
+  * [Top K Frequent Elements](heap/top-k-frequent-elements.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
