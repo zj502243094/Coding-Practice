@@ -70,6 +70,10 @@ class Solution {
 }
 ```
 
+{% hint style="info" %}
+**T/S:** O(n)/O(1)
+{% endhint %}
+
 ```
 // Some code
 ```
