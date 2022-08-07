@@ -25,8 +25,40 @@
 
 {% hint style="info" %}
 首先想到 将所有数  加到set里面 i <= n set 里面没出现过就是 res &#x20;
+
+但是 space 是 extra O(n)
 {% endhint %}
 
 ```
-// Some code
+class Solution {
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int res = -1;
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        for (int i = 0; i <= n; i++) {
+            if (!set.contains(i)) {
+                res = i;
+            }
+        }
+        return res;
+    }
+}
+```
+
+```
+class Solution {
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += i;
+            sum -= nums[i];
+        }
+        sum += n;
+        return sum;
+    }
+}
 ```
