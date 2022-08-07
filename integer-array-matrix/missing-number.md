@@ -48,6 +48,12 @@ class Solution {
 }
 ```
 
+{% hint style="info" %}
+space : O(1)
+
+新开一个sum 将 0 - n 之间所有的和 和 nums\[0 - n] 之前 差值为 res&#x20;
+{% endhint %}
+
 ```
 class Solution {
     public int missingNumber(int[] nums) {
