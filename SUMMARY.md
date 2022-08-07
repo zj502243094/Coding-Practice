@@ -10,6 +10,7 @@
   * [Merge Two Sorted Arrays](integer-array-matrix/merge-two-sorted-arrays.md)
   * [Merge Sorted Array](integer-array-matrix/merge-sorted-array.md)
   * [Merge Intervals](integer-array-matrix/merge-intervals.md)
+  * [Missing Number](integer-array-matrix/missing-number.md)
 * [String](string/README.md)
   * [Implement strStr()](string/implement-strstr.md)
   * [Valid Anagram](string/valid-anagram.md)
