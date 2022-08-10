@@ -15,6 +15,7 @@
   * [Best Time to Buy and Sell Stock](integer-array-matrix/best-time-to-buy-and-sell-stock.md)
   * [Best Time to Buy and Sell Stock II](integer-array-matrix/best-time-to-buy-and-sell-stock-ii.md)
   * [Best Time to Buy and Sell Stock III](integer-array-matrix/best-time-to-buy-and-sell-stock-iii.md)
+  * [Maximize Distance to Closest Person](integer-array-matrix/maximize-distance-to-closest-person.md)
 * [String](string/README.md)
   * [Implement strStr()](string/implement-strstr.md)
   * [Valid Anagram](string/valid-anagram.md)
