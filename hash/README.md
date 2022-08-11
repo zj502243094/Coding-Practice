@@ -20,6 +20,8 @@ map.get() get the value mapped by a particular key It returns NULL when the map 
 
 [`putIfAbsent`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#putIfAbsent-K-V-)`(`[`K`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) `key,` [`V`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) `value)`If the specified key is not already associated with a value (or is mapped to `null`) associates it with the given value and returns `null`, else returns the current value. &#x20;
 
+[`computeIfAbsent`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#computeIfAbsent-K-java.util.function.Function-)`(`[`K`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) `key,` [`Function`](https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html)`<? super` [`K`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)`,? extends` [`V`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)`> mappingFunction)`If the specified key is not already associated with a value (or is mapped to `null`), attempts to compute its value using the given mapping function and enters it into this map unless `null`
+
 [`keySet`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#keySet--)`()`Returns a [`Set`](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html) view of the keys contained in this map.
 
 \

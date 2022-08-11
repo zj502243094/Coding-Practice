@@ -76,6 +76,7 @@
     * [Binary Tree Level Order Traversal](binary-tree/binary-tree-traversal/binary-tree-level-order-traversal.md)
     * [Binary Tree Level Order Traversal II](binary-tree/binary-tree-traversal/binary-tree-level-order-traversal-ii.md)
     * [Binary Tree Zigzag Level Order Traversal](binary-tree/binary-tree-traversal/binary-tree-zigzag-level-order-traversal.md)
+    * [Binary Tree Vertical Order Traversal](binary-tree/binary-tree-traversal/binary-tree-vertical-order-traversal.md)
     * [Construct Binary Tree from Preorder and Inorder Traversal](binary-tree/binary-tree-preorder-inorder-poster-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.md)
     * [Construct Binary Tree from Inorder and Postorder Traversal](binary-tree/binary-tree-preorder-inorder-poster-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.md)
   * [Path Sum](binary-tree/path-sum/README.md)
