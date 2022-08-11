@@ -18,9 +18,9 @@ class Solution {
                 if (cur.left != null) q.offer(cur.left);
                 if (cur.right != null) q.offer(cur.right);
             }
-            res.add(0, level);
+            res.add(0, level);  // res.add(level);
         }
-        return res;
+        return res;   // Collections.reverse(res);
     }
 }
 ```
