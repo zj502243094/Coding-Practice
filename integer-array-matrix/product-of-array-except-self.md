@@ -13,14 +13,12 @@
 > **Example 1:**
 >
 > <pre><code>Input: nums = [1,2,3,4]
-> <strong>Output:
-> </strong> [24,12,8,6]</code></pre>
+> <strong>Output: [24,12,8,6]</strong></code></pre>
 >
 > **Example 2:**
 >
 > <pre><code>Input: nums = [-1,1,0,-3,3]
-> <strong>Output:
-> </strong> [0,0,9,0,0]</code></pre>
+> <strong>Output: [0,0,9,0,0]</strong></code></pre>
 
 {% hint style="info" %}
 前缀乘积
