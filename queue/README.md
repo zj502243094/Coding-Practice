@@ -43,47 +43,7 @@ public class Main {
 
 In Java, **Queue** interface, with a couple of implementation e.g. **BlockingQueue**, **LinkedList**, and **PriorityQueue**.
 
-### Queue Implementation
 
-### Queue Using Array
-
-Use a **fixed-size array** and **two pointers** to indicate the starting position and the ending position. And the goal is to **reuse** the **wasted** **storage** we mentioned previously.
-
-```
-class ArrayQueue {
-    private int front,back;
-    private Object[] array;
-    public static final int MAX=100;
-
-    public ArrayQueue() {
-        front=0;
-        back=0;
-        array = new Object[MAX];
-    }
-
-    public Object first() {
-        return array[front];
-    }
-
-    public void leave(){
-        front++;
-        if(front==MAX)
-        front=0;
-    }
-
-    public void join(Object obj) {
-        array[back++]=obj;
-        if(back==MAX)
-            back=0;
-    }
-
-    public boolean isEmpty() {
-        return front==back;
-    }
-}
-```
-
-## Deque&#x20;
 
 The Deque is related to the double-ended queue that supports the addition or removal of elements from either end of the data structure. It can either be used as a [queue(first-in-first-out/FIFO)](https://www.geeksforgeeks.org/queue/) or as a [stack(last-in-first-out/LIFO)](https://www.geeksforgeeks.org/stack/).
 
