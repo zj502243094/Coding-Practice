@@ -27,5 +27,7 @@
 > - Increment the third element five times to make nums = [1,4,13,13]. 13 has a frequency of 2.</code></pre>
 
 {% hint style="info" %}
-sliding&#x20;
+sliding window 题目
+
+s数组排序后 在nums\[l, r] 区间中需要k步骤变得和nums\[r]相同 sum\[i, j] + k 和nums\[r] \* (r - l + 1)数组排序后 在nums\[l, r] 区间中需要k步骤变得和nums\[r]相同 sum\[i, j] + k 和nums\[r] \* (r - l + 1
 {% endhint %}
