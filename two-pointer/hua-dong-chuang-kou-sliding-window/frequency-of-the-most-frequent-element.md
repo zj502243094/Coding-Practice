@@ -27,7 +27,30 @@
 > - Increment the third element five times to make nums = [1,4,13,13]. 13 has a frequency of 2.</code></pre>
 
 {% hint style="info" %}
-sliding window 题目
+sliding window 题目        数组排序后&#x20;
 
-s数组排序后 在nums\[l, r] 区间中需要k步骤变得和nums\[r]相同 sum\[i, j] + k 和nums\[r] \* (r - l + 1)数组排序后 在nums\[l, r] 区间中需要k步骤变得和nums\[r]相同 sum\[i, j] + k 和nums\[r] \* (r - l + 1
+在nums\[l, r] 需要 k 次变得和nums\[r]相同  sum\[i, j] + k 和nums\[r] \* (r - l + 1)
 {% endhint %}
+
+```
+class Solution {
+    public int maxFrequency(int[] nums, int k) {
+        int res = 0;
+        if (nums == null || nums.length == 0) return res;
+        Arrays.sort(nums);
+        
+        long sum = 0;
+        int l = 0, r = 0;
+        while (r < nums.length) {
+            sum += nums[r];
+            if (sum + k < 1L * nums[r] * (r - l + 1)) {
+                sum -= nums[l];
+                l++;
+            }
+            res = Math.max(res, r - l + 1);
+            r++;
+        }
+        return res;
+    }
+}
+```
