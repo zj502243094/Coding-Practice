@@ -172,6 +172,7 @@
   * [Valid Sudoku](hash/valid-sudoku.md)
   * [Subarray Sum Equals K](hash/subarray-sum-equals-k.md)
   * [Maximum Size Subarray Sum Equals k](hash/maximum-size-subarray-sum-equals-k.md)
+  * [Most frequent element in an array](hash/most-frequent-element-in-an-array.md)
 * [Heap](heap/README.md)
   * [Kth Largest Element in an Array](heap/kth-largest-element-in-an-array.md)
   * [Kth Largest Element in a Stream](heap/kth-largest-element-in-a-stream.md)

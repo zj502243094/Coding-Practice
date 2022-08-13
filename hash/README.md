@@ -24,6 +24,8 @@ map.get() get the value mapped by a particular key It returns NULL when the map 
 
 [`keySet`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#keySet--)`()`Returns a [`Set`](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html) view of the keys contained in this map.
 
+[`entrySet`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#entrySet--)`()`Returns a [`Set`](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html) view of the mappings contained in this map.
+
 \
 
 
