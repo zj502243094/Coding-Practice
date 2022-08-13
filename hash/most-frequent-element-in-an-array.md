@@ -16,27 +16,23 @@
 ```
 class GFG {
 	
-	static int mostFrequent(int arr[], int n){
+	static int mostFrequent(int arr[]){
 		
-		Map<Integer, Integer> hp = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		
-		for(int i = 0; i < n; i++) {
-			int key = arr[i];
-
+		for (int num : arr[]){
+			map.put(nums, map.getOrDefault(nums, 0) + 1);
 		}
 		
 		// find max frequency.
-		int max_count = 0, res = -1;
+		int max = 0, res = 0;
 		
-		for(Entry<Integer, Integer> val : hp.entrySet())
-		{
-			if (max_count < val.getValue())
-			{
+		for(Entry<Integer, Integer> val : map.entrySet()){
+			if (max < val.getValue()){
 				res = val.getKey();
-				max_count = val.getValue();
+				max = val.getValue();
 			}
 		}
-		
 		return res;
 	}
 	
@@ -50,6 +46,25 @@ class GFG {
 	}
 }
 
-// This code is contributed by Akash Singh.
+```
 
+```
+static int maxFreq(int[] arr){
+   
+    int res = 0;
+    int count = 1;
+    for(int i = 1; i < arr.length; i++) {
+        if(arr[i] == arr[res]) {
+            count++;
+        } else {
+            count--;
+        }
+ 
+        if(count == 0) {
+            res = i;
+            count = 1;
+        } 
+    } 
+    return arr[res];
+}
 ```
