@@ -91,6 +91,7 @@
     * [Lowest Common Ancestor of a Binary Tree](binary-tree/lca/lowest-common-ancestor-of-a-binary-tree.md)
     * [Lowest Common Ancestor of a Binary Tree II](binary-tree/lca/lowest-common-ancestor-of-a-binary-tree-ii.md)
     * [Lowest Common Ancestor of a BST](binary-tree/lca/lowest-common-ancestor-of-a-bst.md)
+    * [Least Common Ancestor of any number of nodes in Binary Tree](binary-tree/lca/least-common-ancestor-of-any-number-of-nodes-in-binary-tree.md)
   * [BST](binary-tree/bst/README.md)
     * [Delete Node in a BST](binary-tree/bst/delete-node-in-a-bst.md)
     * [Trim a Binary Search Tree](binary-tree/bst/trim-a-binary-search-tree.md)
