@@ -191,6 +191,8 @@
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
+  * [Two Sum](amex/two-sum.md)
+  * [3Sum](amex/3sum.md)
   * [Intersection of Two Linked Lists](amex/intersection-of-two-linked-lists.md)
   * [Linked List Cycle](amex/linked-list-cycle.md)
   * [Linked List Cycle II](amex/linked-list-cycle-ii.md)
