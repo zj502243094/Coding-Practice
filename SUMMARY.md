@@ -191,6 +191,8 @@
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
   * [Intersection of Two Linked Lists](amex/intersection-of-two-linked-lists.md)
+  * [Linked List Cycle](amex/linked-list-cycle.md)
+  * [Linked List Cycle II](amex/linked-list-cycle-ii.md)
   * [Product of Array Except Self](amex/product-of-array-except-self.md)
   * [LCA](amex/lca/README.md)
     * [Lowest Common Ancestor of a Binary Tree](amex/lca/lowest-common-ancestor-of-a-binary-tree.md)
