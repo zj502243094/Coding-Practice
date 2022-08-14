@@ -23,6 +23,10 @@
 > <strong>Output:false
 > </strong><strong>Explanation:The node with value 7 isn't as far left as possible.</strong></code></pre>
 
+{% hint style="info" %}
+从左到右弹 直到 遇到空 如果Queue中还有数字 表白 右边还有 false
+{% endhint %}
+
 ```
 class Solution {
     public boolean isCompleteTree(TreeNode root) {
