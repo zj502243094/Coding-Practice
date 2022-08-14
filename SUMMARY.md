@@ -203,3 +203,5 @@
   * [Subtree of Another Tree](amex/subtree-of-another-tree.md)
   * [Check Completeness of a Binary Tree](amex/check-completeness-of-a-binary-tree.md)
   * [Stack / Queue implement](amex/stack-queue-implement.md)
+  * [Balance a Binary Search Tree](amex/balance-a-binary-search-tree.md)
+  * [Subarray Sum Equals K](amex/subarray-sum-equals-k.md)
