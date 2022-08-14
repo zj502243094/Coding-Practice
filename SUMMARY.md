@@ -165,6 +165,7 @@
   * [Group Anagrams](hash/group-anagrams.md)
   * [Jewels and Stones](hash/jewels-and-stones.md)
   * [Longest Consecutive Sequence](hash/longest-consecutive-sequence.md)
+  * [Maximum Length of a Concatenated String with Unique Characters](hash/maximum-length-of-a-concatenated-string-with-unique-characters.md)
   * [Contains Duplicate 1 2 3](hash/contains-duplicate-1-2-3.md)
   * [Word Abbreviation](hash/word-abbreviation.md)
   * [Unique Word Abbreviation](hash/unique-word-abbreviation.md)
@@ -205,3 +206,4 @@
   * [Stack / Queue implement](amex/stack-queue-implement.md)
   * [Balance a Binary Search Tree](amex/balance-a-binary-search-tree.md)
   * [Subarray Sum Equals K](amex/subarray-sum-equals-k.md)
+  * [Maximum Length of a Concatenated String with Unique Characters](amex/maximum-length-of-a-concatenated-string-with-unique-characters.md)
