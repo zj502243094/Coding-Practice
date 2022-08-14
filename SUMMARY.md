@@ -201,4 +201,5 @@
     * [Least Common Ancestor of any number of nodes in Binary Tree](amex/lca/least-common-ancestor-of-any-number-of-nodes-in-binary-tree.md)
   * [Same Tree](amex/same-tree.md)
   * [Subtree of Another Tree](amex/subtree-of-another-tree.md)
+  * [Check Completeness of a Binary Tree](amex/check-completeness-of-a-binary-tree.md)
   * [Stack / Queue implement](amex/stack-queue-implement.md)
