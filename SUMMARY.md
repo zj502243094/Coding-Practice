@@ -207,3 +207,4 @@
   * [Balance a Binary Search Tree](amex/balance-a-binary-search-tree.md)
   * [Subarray Sum Equals K](amex/subarray-sum-equals-k.md)
   * [Maximum Length of a Concatenated String with Unique Characters](amex/maximum-length-of-a-concatenated-string-with-unique-characters.md)
+  * [Most frequent element in an array](amex/most-frequent-element-in-an-array.md)
