@@ -30,3 +30,7 @@ public List<Node> topSort(List<Node> graph) {
         return res;
     }
 ```
+
+{% hint style="info" %}
+[https://www.youtube.com/watch?v=B5hxqxBL2d0\&list=PLbaIOC0vpjNVRXM5J4Y1jrZwhoDTyMNXU\&index=4\&ab\_channel=%E5%8F%A4%E5%9F%8E%E7%AE%97%E6%B3%95](https://www.youtube.com/watch?v=B5hxqxBL2d0\&list=PLbaIOC0vpjNVRXM5J4Y1jrZwhoDTyMNXU\&index=4\&ab\_channel=%E5%8F%A4%E5%9F%8E%E7%AE%97%E6%B3%95)
+{% endhint %}
