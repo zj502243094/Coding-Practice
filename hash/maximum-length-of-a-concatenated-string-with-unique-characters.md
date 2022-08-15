@@ -16,9 +16,8 @@
 >
 > <pre><code>Input: arr = ["un","iq","ue"]
 > <strong>Output:4
-> </strong><strong>Explanation:
-> </strong> All the valid concatenations are:
-> - ""
+> </strong><strong>Explanation: All the valid concatenations are:
+> </strong>- ""
 > - "un"
 > - "iq"
 > - "ue"
@@ -30,8 +29,7 @@
 >
 > <pre><code>Input: arr = ["cha","r","act","ers"]
 > <strong>Output: 6
-> </strong><strong>Explanation:
-> </strong> Possible longest valid concatenations are "chaers" ("cha" + "ers") and "acters" ("act" + "ers").</code></pre>
+> </strong><strong>Explanation:Possible longest valid concatenations are "chaers" ("cha" + "ers") and "acters" ("act" + "ers").</strong></code></pre>
 
 {% hint style="info" %}
 确定index 位置 str是否在字符串中出现过 然后加上后面是否出现过
