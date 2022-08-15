@@ -191,6 +191,7 @@
   * [Topological Sorting](graph-and-bfs/topological-sorting.md)
   * [Course Schedule](graph-and-bfs/course-schedule.md)
   * [Course Schedule II](graph-and-bfs/course-schedule-ii.md)
+  * [Alien Dictionary](graph-and-bfs/alien-dictionary.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
