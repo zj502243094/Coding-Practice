@@ -188,6 +188,7 @@
   * [Clone Graph](graph-and-bfs/clone-graph.md)
   * [Search Graph Nodes](graph-and-bfs/search-graph-nodes.md)
   * [Graph Valid Tree](graph-and-bfs/graph-valid-tree.md)
+  * [Topological Sorting](graph-and-bfs/topological-sorting.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
