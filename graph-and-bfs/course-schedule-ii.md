@@ -6,9 +6,9 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] edges) {
         int[] res = new int[numCourses];
+        int[] indegree = new int[numCourses];
         
         Map<Integer, List<Integer>> graph = new HashMap<>();
-        int[] indegree = new int[numCourses];
         for (int[] edge : edges) {
             int start = edge[1], end = edge[0];
             graph.computeIfAbsent(start, x -> new ArrayList<>()).add(end);
