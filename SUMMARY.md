@@ -194,6 +194,7 @@
   * [Alien Dictionary](graph-and-bfs/alien-dictionary.md)
   * [Shortest Path in Undirected Graph](graph-and-bfs/shortest-path-in-undirected-graph.md)
   * [Word Ladder](graph-and-bfs/word-ladder.md)
+  * [Open the Lock](graph-and-bfs/open-the-lock.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
