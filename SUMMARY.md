@@ -192,6 +192,8 @@
   * [Course Schedule](graph-and-bfs/course-schedule.md)
   * [Course Schedule II](graph-and-bfs/course-schedule-ii.md)
   * [Alien Dictionary](graph-and-bfs/alien-dictionary.md)
+  * [Shortest Path in Undirected Graph](graph-and-bfs/shortest-path-in-undirected-graph.md)
+  * [Word Ladder](graph-and-bfs/word-ladder.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
