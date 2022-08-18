@@ -25,6 +25,12 @@
 > <pre><code>Input: maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], start = [0,4], destination = [3,2]
 > <strong>Output:false</strong></code></pre>
 
+{% hint style="info" %}
+int\[]\[] dirs = \{{1, 0}, {-1, 0}, {0, 1}, {0, -1\}};&#x20;
+
+方向对应 右左上下
+{% endhint %}
+
 ```
 class Solution {
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
