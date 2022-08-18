@@ -198,6 +198,7 @@
   * [BFS in Matrix](graph-and-bfs/bfs-in-matrix/README.md)
     * [Number of Islands](graph-and-bfs/bfs-in-matrix/number-of-islands.md)
     * [The Maze](graph-and-bfs/bfs-in-matrix/the-maze.md)
+    * [The Maze II](graph-and-bfs/bfs-in-matrix/the-maze-ii.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
