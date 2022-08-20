@@ -21,7 +21,7 @@ public class ListNode {
 
 链表与数组的比较
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (3).png>)
 
 一个链表的真实的头部节点可以由Dummy Node的next函数获得
 
