@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/subsets-ii/](https://leetcode.com/problems/subsets-ii/)
 
+返回nums 全部的子集合 并且不重复
+
 > Given an integer array `nums` that may contain duplicates, return _all possible subsets (the power set)_.
 >
 > The solution set **must not** contain duplicate subsets. Return the solution in **any order**.
