@@ -206,6 +206,8 @@
     * [Subsets II](dfs-backtracking/zu-he-xing-dfs-combination/subsets-ii.md)
     * [Combination Sum](dfs-backtracking/zu-he-xing-dfs-combination/combination-sum.md)
     * [Combination Sum II](dfs-backtracking/zu-he-xing-dfs-combination/combination-sum-ii.md)
+    * [Combination Sum III](dfs-backtracking/zu-he-xing-dfs-combination/combination-sum-iii.md)
+    * [k Sum II](dfs-backtracking/zu-he-xing-dfs-combination/k-sum-ii.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
 * [AMEX](amex/README.md)
