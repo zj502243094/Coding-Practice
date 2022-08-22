@@ -33,5 +33,28 @@ if(i>0 &&nums[i-1]==nums[i] && !used[i-1]) continue;
 {% endhint %}
 
 ```
-// Some code
+class Solution {
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        boolean[] visit = new boolean[nums.length];
+        Arrays.sort(nums);
+        dfs(nums, visit, new ArrayList<>(), res);
+        return res;
+    }
+    private void dfs(int[] nums, boolean[] visit, List<Integer> cur, List<List<Integer>> res) {
+        if (cur.size() == nums.length) {
+            res.add(new ArrayList<>(cur));
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (visit[i]) continue;
+            if (i > 0 && nums[i] == nums[i - 1] && !visit[i - 1]) continue;
+            cur.add(nums[i]);
+            visit[i] = true;
+            dfs(nums, visit, cur, res);
+            cur.remove(cur.size() - 1);
+            visit[i] = false;
+        }
+    }
+}
 ```
