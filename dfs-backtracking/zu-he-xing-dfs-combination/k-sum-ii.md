@@ -2,6 +2,8 @@
 
 [https://www.lintcode.com/problem/90/](https://www.lintcode.com/problem/90/)
 
+在a\[]里面选k个数和为target
+
 > Given `n` distinct positive integers, the integer `k`  and a target number.
 >
 > Find `k` distinct numbers within these `n` numbers such that the sum of these `k` numbers equals the target number, and you need to find all the solutions that satisfy the requirement (the order of the solutions is not required).
