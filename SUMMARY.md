@@ -211,6 +211,7 @@
     * [Combination Sum IV](dfs-backtracking/zu-he-xing-dfs-combination/combination-sum-iv.md)
     * [Palindrome Partitioning](dfs-backtracking/zu-he-xing-dfs-combination/palindrome-partitioning.md)
     * [Split String](dfs-backtracking/zu-he-xing-dfs-combination/split-string.md)
+  * [排列型DFS - Permutation](dfs-backtracking/pai-lie-xing-dfs-permutation.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)
