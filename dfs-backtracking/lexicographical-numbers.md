@@ -34,3 +34,23 @@ class Solution {
     }
 }
 ```
+
+```
+class Solution {
+    public List<Integer> lexicalOrder(int n) {
+        List<Integer> res = new ArrayList<>();
+        for (int i = 1; i < 10; i++) {
+            dfs (n, i, res);
+        }
+        return res;
+    }
+    private void dfs(int n, int cur, List<Integer> res) {
+        if (cur > n) return;
+        res.add(cur);
+        for (int i = 0; i < 10; i++) {
+            if (10 * cur + i > n) return;
+            dfs(n, 10 * cur + i, res);
+        }
+    }
+}
+```
