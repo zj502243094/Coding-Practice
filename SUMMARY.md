@@ -215,7 +215,7 @@
   * [排列型DFS - Permutation](dfs-backtracking/pai-lie-xing-dfs-permutation.md)
     * [Permutations](dfs-backtracking/pai-lie-xing-dfs-permutation/permutations.md)
     * [Permutations II](dfs-backtracking/pai-lie-xing-dfs-permutation/permutations-ii.md)
-  * [Lexicographical Numbers](dfs-backtracking/lexicographical-numbers.md)
+    * [Lexicographical Numbers](dfs-backtracking/pai-lie-xing-dfs-permutation/lexicographical-numbers.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)
