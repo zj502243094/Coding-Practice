@@ -176,6 +176,7 @@
   * [Most frequent element in an array](hash/most-frequent-element-in-an-array.md)
   * [Repeated DNA Sequences](hash/repeated-dna-sequences.md)
   * [First Unique Character in a String](string/first-unique-character-in-a-string.md)
+  * [Minimum shift Operations Make String Equals](hash/minimum-shift-operations-make-string-equals.md)
 * [Heap](heap/README.md)
   * [Kth Largest Element in an Array](heap/kth-largest-element-in-an-array.md)
   * [Kth Largest Element in a Stream](heap/kth-largest-element-in-a-stream.md)

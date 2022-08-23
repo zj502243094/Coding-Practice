@@ -30,31 +30,16 @@
 ```
 class Solution {
     public int firstUniqChar(String s) {
+        int res = -1;
         int[] cnt = new int[256];
-        for (char c : s.toCharArray()) cnt[c]++;
+        for(char c : s.toCharArray()) cnt[c]++;
         for (int i = 0; i < s.length(); i++) {
-            if (cnt[s.charAt(i)] == 1) {
-                return i;
-            }
+            if(cnt[s.charAt(i)] == 1) {
+                res = i;
+                break;
+            }   
         }
-        return -1;
-    }
-}
-```
-
-```
-class Solution {
-    public int firstUniqChar(String s) {
-        Map<Character, Integer> map = new HashMap<>();
-        for (char c : s.toCharArray()) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
-        }
-        for (int i = 0; i < s.length(); i++) {
-            if (map.get(s.charAt(i)) == 1) {
-                return i;
-            }
-        }
-        return -1;
+        return res;
     }
 }
 ```
