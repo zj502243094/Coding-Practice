@@ -6,6 +6,7 @@
   * [Reverse Integer](integer-array-matrix/reverse-integer.md)
   * [Maximum Subarray](integer-array-matrix/maximum-subarray.md)
   * [Product of Array Except Self](integer-array-matrix/product-of-array-except-self.md)
+  * [Maximum Product Subarray](integer-array-matrix/maximum-product-subarray.md)
   * [Spiral Matrix](integer-array-matrix/spiral-matrix.md)
   * [Spiral Matrix II](integer-array-matrix/spiral-matrix-ii.md)
   * [Merge Two Sorted Arrays](integer-array-matrix/merge-two-sorted-arrays.md)
