@@ -1,6 +1,6 @@
 # Minimum shift Operations Make String Equals
 
-> Given two strings, determine if the first string can be transformed into the second string. The only operation allowed is moving a character from the first string to the front. If the string can be transformed, find the minimum number of operations required for the transformation.
+> Given two strings, determine if the first string can be transformed into the second string. The only operation allowed is **moving a character from the first string to the front**. If the string can be transformed, find the minimum number of operations required for the transformation.
 >
 > For example, the minimum number of operations required to convert the string `ADCB` to string `ABCD` is `3`.
 >
