@@ -2,7 +2,7 @@
 
 [https://leetcode.com/problems/permutations/](https://leetcode.com/problems/permutations/)
 
-> Given an array `nums` of **distinct** integers, return _all the possible permutations_. You can return the answer in **any order**.
+> Given an array `nums` of distinct integers, return _all the possible permutations_. You can return the answer in **any order**.
 >
 > &#x20;
 >
