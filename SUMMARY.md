@@ -219,6 +219,8 @@
     * [Permutations II](dfs-backtracking/pai-lie-xing-dfs-permutation/permutations-ii.md)
     * [Combinations](dfs-backtracking/pai-lie-xing-dfs-permutation/combinations.md)
     * [Sudoku Solver](dfs-backtracking/pai-lie-xing-dfs-permutation/sudoku-solver.md)
+    * [Page 1](dfs-backtracking/pai-lie-xing-dfs-permutation/page-1.md)
+    * [N-Queens II](dfs-backtracking/pai-lie-xing-dfs-permutation/n-queens-ii.md)
     * [Lexicographical Numbers](dfs-backtracking/pai-lie-xing-dfs-permutation/lexicographical-numbers.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
