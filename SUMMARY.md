@@ -222,6 +222,7 @@
     * [N-Queens](dfs-backtracking/pai-lie-xing-dfs-permutation/page-1.md)
     * [N-Queens II](dfs-backtracking/pai-lie-xing-dfs-permutation/n-queens-ii.md)
     * [Unique Paths III](dfs-backtracking/pai-lie-xing-dfs-permutation/unique-paths-iii.md)
+    * [Generate Parentheses](dfs-backtracking/pai-lie-xing-dfs-permutation/generate-parentheses.md)
     * [Lexicographical Numbers](dfs-backtracking/pai-lie-xing-dfs-permutation/lexicographical-numbers.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
