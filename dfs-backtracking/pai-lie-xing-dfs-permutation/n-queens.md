@@ -1,4 +1,4 @@
-# Page 1
+# N-Queens
 
 [https://leetcode.com/problems/n-queens/](https://leetcode.com/problems/n-queens/)
 
@@ -22,8 +22,7 @@
 > **Example 2:**
 >
 > <pre><code>Input: n = 1
-> <strong>Output:
-> </strong> [["Q"]]</code></pre>
+> <strong>Output: [["Q"]]</strong></code></pre>
 
 ```
 class Solution {
