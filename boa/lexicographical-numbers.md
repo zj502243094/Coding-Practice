@@ -1,7 +1,5 @@
 # Lexicographical Numbers
 
-[https://leetcode.com/problems/lexicographical-numbers/](https://leetcode.com/problems/lexicographical-numbers/)
-
 按字典序排序
 
 > Given an integer `n`, return all the numbers in the range `[1, n]` sorted in lexicographical order.
