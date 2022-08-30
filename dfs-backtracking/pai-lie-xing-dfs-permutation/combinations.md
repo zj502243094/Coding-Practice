@@ -33,6 +33,7 @@ class Solution {
     private void dfs(int n, int k, int index, List<Integer> cur, List<List<Integer>> res) {
         if (cur.size() == k) {
             res.add(new ArrayList<>(cur));
+            return;
         }
         for (int i = index; i <= n; i++) {
             cur.add(i);
