@@ -50,7 +50,6 @@ class Solution {
 
 ```
 class Solution {
-    int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     public int maxAreaOfIsland(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         int res = 0;
@@ -58,28 +57,23 @@ class Solution {
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1 && !visit[i][j]) {
-                    int area = bfs(grid, i, j, visit);
+                    int area = dfs(grid, i, j, visit);
                     res = Math.max(res, area);
                 }
             }
         } 
         return res;
     }
-    private int bfs(int[][] grid, int row, int col, boolean[][] visit) {
-        Queue<int[]> q = new LinkedList<>();
-        q.offer(new int[]{row, col});
-        visit[row][col] = true;
-        int res = 0;
-        while (!q.isEmpty()) {
-            int[] cur = q.poll();
-            res++;
-            for (int[] dir : dirs) {
-                int x = cur[0] + dir[0], y = cur[1] + dir[1];
-                if (x < 0 || x >= grid.length || y < 0 || y >= grid[0].length || grid[x][y] == 0 || visit[x][y]) continue;
-                q.offer(new int[]{x, y});
-                visit[x][y] = true;
-            }
+    private int dfs(int[][] grid, int x, int y, boolean[][] visit) {
+        if (x < 0 || x >= grid.length || y < 0 || y >= grid[0].length || grid[x][y] == 0 || visit[x][y]) {
+            return 0;
         }
+        int res = 1;
+        visit[x][y] = true;
+        res += dfs(grid, x + 1, y, visit);
+        res += dfs(grid, x - 1, y, visit);
+        res += dfs(grid, x, y + 1, visit);
+        res += dfs(grid, x, y - 1, visit);
         return res;
     }
 }
