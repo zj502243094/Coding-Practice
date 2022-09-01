@@ -227,6 +227,8 @@
   * [Number of Islands](number-of-islands/number-of-islands.md)
   * [Max Area of Island](number-of-islands/max-area-of-island.md)
   * [Island Perimeter](number-of-islands/island-perimeter.md)
+  * [Number of Distinct Islands](number-of-islands/number-of-distinct-islands.md)
+  * [Number of Closed Islands](number-of-islands/number-of-closed-islands.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)
