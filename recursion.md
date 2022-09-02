@@ -2,7 +2,7 @@
 
 递归就是在函数里调用自身  在使用递归策略时，必须有一个递归结束条件
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (6) (2).png>)
 
 递归只用写一个函数，自己调用自己 – 不用写多个函数 factorial5(), factorial4(), …, factorial1()&#x20;
 

@@ -40,7 +40,7 @@ class Solution {
 }
 ```
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (2).png>)
 
 ```
 class Solution {
