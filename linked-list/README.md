@@ -11,7 +11,7 @@ public class ListNode {
 }
 ```
 
-遍历：![](<../.gitbook/assets/image (6) (1).png>)
+遍历：![](<../.gitbook/assets/image (6) (1) (1).png>)
 
 按值查找： ![](<../.gitbook/assets/image (5) (1) (1).png>)
 
@@ -25,6 +25,6 @@ public class ListNode {
 
 一个链表的真实的头部节点可以由Dummy Node的next函数获得
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (2).png>)
 
 ![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
