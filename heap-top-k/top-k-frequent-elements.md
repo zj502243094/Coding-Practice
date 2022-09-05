@@ -132,7 +132,7 @@ Follow ups：
 
        <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-       <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. lookback window (在特定时间内 topK    【半小时前 2个小时前topK】)
    1. topK过来 到API Gateway 到storage&#x20;
    2.  分成快慢速时间段  （slow/fast path）
@@ -142,3 +142,5 @@ Follow ups：
 
        <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 3.
+
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
