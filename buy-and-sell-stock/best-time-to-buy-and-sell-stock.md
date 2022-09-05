@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/best-time-to-buy-and-sell-stock/](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
+最多一次买卖 一天买一天卖 找到最大值
+
 > You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
 >
 > You want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.
@@ -23,7 +25,9 @@ class Solution {
         int buy = Integer.MAX_VALUE;
         for (int price : prices) {
             buy = Math.min(buy, price);
-            res = Math.max(price - buy, res);
+            if (price > buy) {
+                res = Math.max(price - buy, res);
+            }
         }
         return res;
     }   
