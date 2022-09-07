@@ -80,7 +80,7 @@ public void sortIntegers(int[] A) {
 
 – 将排好序的两半数组合并（merge）
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (2).png>)
 
 
 
