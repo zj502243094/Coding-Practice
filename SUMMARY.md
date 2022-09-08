@@ -246,6 +246,7 @@
   * [Minimum Remove to Make Valid Parentheses](parentheses/minimum-remove-to-make-valid-parentheses.md)
   * [Score of Parentheses](parentheses/score-of-parentheses.md)
   * [Longest Valid Parentheses](parentheses/longest-valid-parentheses.md)
+  * [Generate Parentheses](parentheses/generate-parentheses.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)
