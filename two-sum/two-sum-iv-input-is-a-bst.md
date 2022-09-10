@@ -64,3 +64,66 @@ class Solution {
     }
 }
 ```
+
+{% hint style="info" %}
+follow up
+
+Time O(n) Space O(h)
+{% endhint %}
+
+```
+class Solution {
+    public boolean findTarget(TreeNode root, int k) {
+        BSTIterator left = new BSTIterator(root, true);
+        BSTIterator right = new BSTIterator(root, false);
+        while (left.hasNext() && right.hasNext()) {
+            int l = left.peek(), r = right.peek();
+            if (l >= r) return false;
+            if (l + r == k) return true;
+            else if (l + r < k) left.next();
+            else right.next();
+        }
+        return false;
+    }
+    
+    class BSTIterator {
+    
+        Stack<TreeNode> stack;
+        boolean forward;
+        public BSTIterator(TreeNode root, boolean forward) {
+            this.stack = new Stack<>();
+            this.forward = forward;
+            if (forward) pushAllLeft(root);
+            else pushAllRight(root);
+        }
+    
+        public int next() {
+            TreeNode node = stack.pop();
+            if (forward) pushAllLeft(node.right);
+            else pushAllRight(node.left);
+            return node.val;
+        }
+    
+        public boolean hasNext() {
+            return !stack.isEmpty();
+        }
+        
+        public int peek() {
+            return stack.peek().val;
+        }
+        
+        private void pushAllLeft(TreeNode root) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+        }
+        private void pushAllRight(TreeNode root) {
+            while (root != null) {
+                stack.push(root);
+                root = root.right;
+            }
+        }
+    }
+}
+```

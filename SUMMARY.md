@@ -252,6 +252,8 @@
   * [Two Sum II - Input Array Is Sorted](two-sum/two-sum-ii-input-array-is-sorted.md)
   * [Two Sum III - Data structure design](two-sum/two-sum-iii-data-structure-design.md)
   * [Two Sum IV - Input is a BST](two-sum/two-sum-iv-input-is-a-bst.md)
+  * [3Sum](two-sum/3sum.md)
+  * [3Sum Closest](two-sum/3sum-closest.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)

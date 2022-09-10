@@ -1,6 +1,6 @@
 # Binary Search Tree Iterator
 
-[https://leetcode.com/problems/binary-search-tree-iterator/](https://leetcode.com/problems/binary-search-tree-iterator/)
+
 
 > Implement the `BSTIterator` class that represents an iterator over the [**in-order traversal**](https://en.wikipedia.org/wiki/Tree\_traversal#In-order\_\(LNR\)) of a binary search tree (BST):
 >
