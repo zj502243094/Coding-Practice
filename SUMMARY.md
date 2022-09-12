@@ -254,6 +254,8 @@
   * [Two Sum IV - Input is a BST](two-sum/two-sum-iv-input-is-a-bst.md)
   * [3Sum](two-sum/3sum.md)
   * [3Sum Closest](two-sum/3sum-closest.md)
+  * [3Sum Smaller](two-sum/3sum-smaller.md)
+  * [3Sum With Multiplicity](two-sum/3sum-with-multiplicity.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)
