@@ -10,7 +10,7 @@
 
 ### if have "+" "-" "\*" "/"
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### if have 括号 全部
 
