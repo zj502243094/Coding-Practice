@@ -1,4 +1,4 @@
-# Heap
+# Heap / Top K
 
 ## Heap Definition
 
@@ -29,4 +29,4 @@ Heap Application
 
 [https://www.geeksforgeeks.org/binary-heap/](https://www.geeksforgeeks.org/binary-heap/)
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)

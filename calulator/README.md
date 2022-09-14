@@ -6,7 +6,7 @@
 
 ### if only have "+" "-"
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 ### if have "+" "-" "\*" "/"
 
