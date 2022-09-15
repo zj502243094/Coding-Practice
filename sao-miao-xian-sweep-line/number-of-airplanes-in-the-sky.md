@@ -29,7 +29,7 @@
 > Explanation: Landing happen before taking off.
 > ```
 >
-> <img src="../.gitbook/assets/image (1).png" alt="" data-size="original">
+> <img src="../.gitbook/assets/image (1) (5).png" alt="" data-size="original">
 
 ```
 /**
