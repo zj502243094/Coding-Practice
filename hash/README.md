@@ -47,3 +47,7 @@ log(n) (add, remove and contains).
 floor(E e) 方法返回在这个集合中**小于**或者等于给定元素的**最大**元素，如果不存在这样的元素,返回null.
 
 ceiling(E e) 方法返回在这个集合中**大于**或者等于给定元素的**最小**元素，如果不存在这样的元素,返回null.
+
+[**`lower`**](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html#lower\(E\))`(`[`E`](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) `e)`Returns the greatest element in this set strictly less than the given element, or `null` if there is no such element.
+
+[**`higher`**](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html#higher\(E\))`(`[`E`](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) `e)`Returns the least element in this set strictly greater than the given element, or `null` if there is no such element

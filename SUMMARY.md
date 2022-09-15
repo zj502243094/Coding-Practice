@@ -275,6 +275,7 @@
   * [Remove Interval](sao-miao-xian-sweep-line/remove-interval.md)
   * [Non-overlapping Intervals](sao-miao-xian-sweep-line/non-overlapping-intervals.md)
   * [Remove Covered Intervals](sao-miao-xian-sweep-line/remove-covered-intervals.md)
+  * [Data Stream as Disjoint Intervals](sao-miao-xian-sweep-line/data-stream-as-disjoint-intervals.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)
