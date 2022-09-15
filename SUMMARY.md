@@ -272,6 +272,8 @@
   * [Meeting Rooms II](sao-miao-xian-sweep-line/meeting-rooms-ii.md)
   * [Merge Intervals](sao-miao-xian-sweep-line/merge-intervals.md)
   * [Insert Interval](sao-miao-xian-sweep-line/insert-interval.md)
+  * [Remove Interval](sao-miao-xian-sweep-line/remove-interval.md)
+  * [Non-overlapping Intervals](sao-miao-xian-sweep-line/non-overlapping-intervals.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
   * [8/18](za-ji/8-18.md)
