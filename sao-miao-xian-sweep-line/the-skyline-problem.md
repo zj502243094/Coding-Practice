@@ -45,15 +45,21 @@ class Solution {
             height.add(new int[]{b[1], -b[2]});
         }
         Collections.sort(height, (a, b) -> a[0] == b[0] ? b[1] - a[1] : a[0] - b[0]);
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> (b - a));
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
         pq.add(0);
         int preMax = 0;
         for (int[] h : height) {
-            if (h[1] > 0) pq.add(h[1]);
-            else pq.remove(-h[1]);
+            if (h[1] > 0) {
+                pq.add(h[1]);
+            } else {
+                pq.remove(-h[1]);
+            }
             int curMax = pq.peek();
             if (curMax != preMax) {
-                res.add(List.of(h[0], curMax));
+                List<Integer> point = new ArrayList<>();
+                point.add(h[0]);
+                point.add(curMax);
+                res.add(point);
                 preMax = curMax;
             }
         }
