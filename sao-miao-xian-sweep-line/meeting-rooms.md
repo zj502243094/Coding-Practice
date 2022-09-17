@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/meeting-rooms/](https://leetcode.com/problems/meeting-rooms/)
 
+检查一个人能否参加全部的会
+
 > Given an array of meeting time `intervals` where `intervals[i] = [starti, endi]`, determine if a person could attend all meetings.
 >
 > &#x20;

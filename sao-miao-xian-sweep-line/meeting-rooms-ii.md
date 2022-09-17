@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/meeting-rooms-ii/](https://leetcode.com/problems/meeting-rooms-ii/)
 
+最少需要几个房间
+
 > Given an array of meeting time intervals `intervals` where `intervals[i] = [starti, endi]`, return _the minimum number of conference rooms required_.
 >
 > &#x20;
