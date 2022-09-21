@@ -17,7 +17,9 @@
 > ```
 
 {% hint style="info" %}
-按找到当前行 先找右边 同时行数+1
+本行最后一个 加入&#x20;
+
+如果是left view i == 0 的时候加入
 {% endhint %}
 
 ```
@@ -40,6 +42,10 @@ class Solution {
     } 
 }
 ```
+
+{% hint style="info" %}
+按找到当前行 先找右边 同时行数+1
+{% endhint %}
 
 ```
 class Solution {
