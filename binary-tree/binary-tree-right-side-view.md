@@ -44,7 +44,9 @@ class Solution {
 ```
 
 {% hint style="info" %}
-按找到当前行 先找右边 同时行数+1
+按找到当前行 先找右边 就是right view
+
+先找左边就是 leftview
 {% endhint %}
 
 ```
