@@ -1,6 +1,6 @@
 # Combination Sum II
 
-[https://leetcode.com/problems/combination-sum-ii/submissions/](https://leetcode.com/problems/combination-sum-ii/submissions/)
+[https://leetcode.com/problems/combination-sum-ii/](https://leetcode.com/problems/combination-sum-ii/)
 
 nums\[] 和为target 不可以重复使用&#x20;
 
