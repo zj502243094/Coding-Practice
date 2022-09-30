@@ -39,6 +39,7 @@
   * [二分答案](binary-search/er-fen-da-an/README.md)
     * [Sqrt(x) / Sqrt(x) II](binary-search/sqrt-x-sqrt-x-ii.md)
     * [Wood Cut / Koko Eating Bananas](binary-search/wood-cut-koko-eating-bananas.md)
+    * [Median of Two Sorted Arrays](binary-search/er-fen-da-an/median-of-two-sorted-arrays.md)
     * [Find the Duplicate Number](binary-search/find-the-duplicate-number.md)
   * [First / Last Position of Target](binary-search/page-2.md)
   * [Find First And Last Position of Element in Sorted Array](binary-search/find-first-and-last-position-of-element-in-sorted-array.md)
