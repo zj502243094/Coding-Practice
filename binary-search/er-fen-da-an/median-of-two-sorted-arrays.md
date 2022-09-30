@@ -20,6 +20,10 @@
 > <strong>Output: 2.50000
 > </strong><strong>Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.</strong></code></pre>
 
+{% hint style="info" %}
+O ( m + n )  / O ( 1 )
+{% endhint %}
+
 ```
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
