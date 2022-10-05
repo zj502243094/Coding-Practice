@@ -29,7 +29,7 @@
 {% hint style="info" %}
 穷举 柱子 分别找到左右比本身矮的柱子\
 当柱子 i j  i < j && h\[i] >= h\[j] i 不可能是 后面柱子的左边界  所以候选左边界list 只能是单调递增的（因为 不满足这个性质的柱子 会被删掉不可能作为左边界）\
-![](<../.gitbook/assets/image (10) (1).png>)\
+![](<../.gitbook/assets/image (10) (1) (3).png>)\
 ![](<../.gitbook/assets/image (13).png>)\
 同样方法可以求出右边界 就可以求出 cur 柱子 的面积\
 每个 柱子 在每次循环中 进入 弹出各一次 所以 time O（n）\
