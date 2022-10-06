@@ -167,6 +167,7 @@
   * [Next Greater Element I](stack/next-greater-element-i.md)
   * [Next Greater Node In Linked List](stack/next-greater-node-in-linked-list.md)
   * [Next Greater Element II](stack/next-greater-element-ii.md)
+  * [Daily Temperatures](stack/daily-temperatures.md)
   * [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram.md)
 * [Hash](hash/README.md)
   * [Two Sum](hash/two-sum.md)
