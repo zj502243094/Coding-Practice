@@ -165,6 +165,7 @@
   * [Binary Search Tree Iterator](stack/binary-search-tree-iterator.md)
   * [Next Greater Element](stack/next-greater-element.md)
   * [Next Greater Element I](stack/next-greater-element-i.md)
+  * [Next Greater Node In Linked List](stack/next-greater-node-in-linked-list.md)
   * [Next Greater Element II](stack/next-greater-element-ii.md)
   * [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram.md)
 * [Hash](hash/README.md)
