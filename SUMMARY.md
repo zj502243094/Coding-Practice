@@ -168,6 +168,7 @@
   * [Next Greater Node In Linked List](stack/next-greater-node-in-linked-list.md)
   * [Next Greater Element II](stack/next-greater-element-ii.md)
   * [Daily Temperatures](stack/daily-temperatures.md)
+  * [Remove Duplicate Letters / Smallest Subsequence of Distinct Characters](stack/remove-duplicate-letters-smallest-subsequence-of-distinct-characters.md)
   * [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram.md)
 * [Hash](hash/README.md)
   * [Two Sum](hash/two-sum.md)
