@@ -14,7 +14,7 @@
 
 ● 高效的查找
 
-![](<../../.gitbook/assets/image (4) (2).png>)
+![](<../../.gitbook/assets/image (4) (2) (1).png>)
 
 BST的插入操作 时间复杂度：O(h) 空间复杂度：O(h)
 
