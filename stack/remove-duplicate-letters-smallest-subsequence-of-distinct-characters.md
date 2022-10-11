@@ -4,6 +4,8 @@
 
 [https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
 
+删除重复的 并且实现有最小的序列
+
 > Given a string `s`, remove duplicate letters so that every letter appears once and only once. You must make sure your result is **the smallest in lexicographical order** among all possible results.
 >
 > &#x20;

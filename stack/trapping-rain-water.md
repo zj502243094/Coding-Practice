@@ -25,9 +25,7 @@
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-每个位置都进入stack pre = stack.pop();
-
-有上升墙壁的时候 pop出来的是height\[pre]是水的底部
+每个位置都进入stack pre = stack.pop(); 有上升墙壁的时候 pop出来的是水的底部
 {% endhint %}
 
 ```
