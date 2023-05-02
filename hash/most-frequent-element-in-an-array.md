@@ -16,25 +16,25 @@
 ```
 class GFG {
 	
-	static int mostFrequent(int arr[]){
+     static int mostFrequent(int arr[]){
 		
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-		
-		for (int num : arr[]){
-			map.put(nums, map.getOrDefault(nums, 0) + 1);
-		}
-		
-		// find max frequency.
-		int max = 0, res = 0;
-		
-		for(Entry<Integer, Integer> val : map.entrySet()){
-			if (max < val.getValue()){
-				res = val.getKey();
-				max = val.getValue();
-			}
-		}
-		return res;
-	}
+	Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+        for (int num : arr){
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+
+        // find max frequency.
+        int max = 0, res = 0;
+
+        for(Entry<Integer, Integer> val : map.entrySet()){
+            if (max < val.getValue()){
+                res = val.getKey();
+                max = val.getValue();
+            }
+        }
+        return res;
+     }
 	
 	// Driver code
 	public static void main (String[] args) {
