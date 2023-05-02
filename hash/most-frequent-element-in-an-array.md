@@ -16,19 +16,19 @@
 ```
 class GFG {
 	
-     static int mostFrequent(int arr[]){
-		
-	Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+     static int mostFrequent(int arr[]) {
 
-        for (int num : arr){
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+        for (int num : arr) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
         // find max frequency.
         int max = 0, res = 0;
 
-        for(Entry<Integer, Integer> val : map.entrySet()){
-            if (max < val.getValue()){
+        for (Entry<Integer, Integer> val : map.entrySet()) {
+            if (max < val.getValue()) {
                 res = val.getKey();
                 max = val.getValue();
             }
