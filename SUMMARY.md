@@ -301,6 +301,7 @@
   * [Non-overlapping Intervals](jpmc/non-overlapping-intervals.md)
   * [Match Expression with minimum number of operations](jpmc/match-expression-with-minimum-number-of-operations.md)
   * [Delete Anagrams](jpmc/delete-anagrams.md)
+  * [Next Permutation](jpmc/next-permutation.md)
   * [Group Anagrams](jpmc/group-anagrams.md)
 * [杂记](za-ji/README.md)
   * [7/1](za-ji/7-1.md)
