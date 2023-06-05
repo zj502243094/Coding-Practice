@@ -302,6 +302,7 @@
   * [Match Expression with minimum number of operations](jpmc/match-expression-with-minimum-number-of-operations.md)
   * [Delete Anagrams](jpmc/delete-anagrams.md)
   * [Next Permutation](jpmc/next-permutation.md)
+  * [Least Number of Unique Integers after K Removals](jpmc/least-number-of-unique-integers-after-k-removals.md)
   * [Minimum Suffix Flips](jpmc/minimum-suffix-flips.md)
   * [Group Anagrams](jpmc/group-anagrams.md)
 * [杂记](za-ji/README.md)
