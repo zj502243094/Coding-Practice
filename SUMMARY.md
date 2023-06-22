@@ -302,6 +302,7 @@
   * [Copy of N-Queens](fiserv/copy-of-n-queens.md)
 * [JPMC](jpmc/README.md)
   * [Pairs of Songs With Total Durations Divisible by 60](jpmc/pairs-of-songs-with-total-durations-divisible-by-60.md)
+  * [Number of Airplanes in the Sky](jpmc/number-of-airplanes-in-the-sky.md)
   * [Non-overlapping Intervals](jpmc/non-overlapping-intervals.md)
   * [Match Expression with minimum number of operations](jpmc/match-expression-with-minimum-number-of-operations.md)
   * [Delete Anagrams](jpmc/delete-anagrams.md)
