@@ -15,29 +15,15 @@
 > </strong> [2,-1,2]
 > Explanation: The first 1's next greater number is 2; 
 > The number 2 can't find next greater number. 
-> The second 1's next greater number needs to search circularly, which is also 2.</code></pre>
+> The second 1's next greater number needs to search circularly, which is also 2.
+> </code></pre>
 >
 > **Example 2:**
 >
 > <pre><code>Input: nums = [1,2,3,4,3]
 > <strong>Output:
-> </strong> [2,3,4,-1,4]</code></pre>
-
-```
-class Solution {
-    public int[] nextGreaterElements(int[] nums) {  
-        int n = nums.length;
-        int [] res = new int[n];
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 2 * n - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && nums[i % n] >= stack.peek()) stack.pop();
-            res[i % n] = stack.isEmpty() ? -1 : stack.peek();
-            stack.push(nums[i % n]);
-        }
-        return res;
-    }
-}
-```
+> </strong> [2,3,4,-1,4]
+> </code></pre>
 
 {% hint style="info" %}
 暴力方法就是 将数组copy一遍接到后面 然后再用第一题的方法
@@ -61,6 +47,22 @@ class Solution {
         int [] res = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             res[i] = tmp[i];
+        }
+        return res;
+    }
+}
+```
+
+```
+class Solution {
+    public int[] nextGreaterElements(int[] nums) {  
+        int n = nums.length;
+        int [] res = new int[n];
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 2 * n - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && nums[i % n] >= stack.peek()) stack.pop();
+            res[i % n] = stack.isEmpty() ? -1 : stack.peek();
+            stack.push(nums[i % n]);
         }
         return res;
     }
