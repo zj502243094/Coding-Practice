@@ -296,6 +296,8 @@
   * [Interval List Intersections](sao-miao-xian-sweep-line/interval-list-intersections.md)
   * [Employee Free Time](sao-miao-xian-sweep-line/employee-free-time.md)
   * [The Skyline Problem](sao-miao-xian-sweep-line/the-skyline-problem.md)
+* [Lyft](lyft/README.md)
+  * [FindMissingFilename](lyft/findmissingfilename.md)
 * [Fiserv](fiserv/README.md)
   * [Complete Substring!](fiserv/complete-substring.md)
   * [Copy of Minimum Window Substring](fiserv/copy-of-minimum-window-substring.md)
