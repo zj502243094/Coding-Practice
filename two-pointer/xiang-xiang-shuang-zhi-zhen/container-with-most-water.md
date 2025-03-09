@@ -28,7 +28,7 @@
 > </strong></code></pre>
 
 {% hint style="info" %}
-暴力解法 是 O n 方。 但是用 two pointer 每次谁小动谁
+暴力解法 是 O n 方。 但是用 two pointer 每次谁小动谁 O(n)
 {% endhint %}
 
 ```
