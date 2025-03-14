@@ -64,6 +64,7 @@
   * [Reverse Order Storage](linked-list/reverse-order-storage.md)
   * [Linked List Weighted Sum In Reverse Order](linked-list/linked-list-weighted-sum-in-reverse-order.md)
   * [Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)
+  * [Remove Nth Node From End of List](linked-list/remove-nth-node-from-end-of-list.md)
 * [Binary Tree](binary-tree.md)
   * [Maximum Depth of Binary Tree](binary-tree/maximum-depth-of-binary-tree.md)
   * [Minimum Depth of Binary Tree](binary-tree/minimum-depth-of-binary-tree.md)
