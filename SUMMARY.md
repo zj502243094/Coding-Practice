@@ -63,6 +63,7 @@
   * [Convert Linked List to Array List / Convert Array List to Linked List](linked-list/convert-linked-list-to-array-list-convert-array-list-to-linked-list.md)
   * [Reverse Order Storage](linked-list/reverse-order-storage.md)
   * [Linked List Weighted Sum In Reverse Order](linked-list/linked-list-weighted-sum-in-reverse-order.md)
+  * [Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)
 * [Binary Tree](binary-tree.md)
   * [Maximum Depth of Binary Tree](binary-tree/maximum-depth-of-binary-tree.md)
   * [Minimum Depth of Binary Tree](binary-tree/minimum-depth-of-binary-tree.md)
