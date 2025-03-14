@@ -13,7 +13,8 @@
 > ![](https://assets.leetcode.com/uploads/2021/04/09/sumii-linked-list.jpg)
 >
 > <pre><code>Input: l1 = [7,2,4,3], l2 = [5,6,4]
-> <strong>Output: [7,8,0,7]</strong></code></pre>
+> <strong>Output: [7,8,0,7]
+> </strong></code></pre>
 
 ```
 class Solution {
@@ -29,19 +30,24 @@ class Solution {
             s2.push(l2.val);
             l2 = l2.next;
         }
-        
-        int sum = 0;
-        ListNode cur = new ListNode(0);
-        while (!s1.isEmpty() || !s2.isEmpty()) {
-            if (!s1.isEmpty()) sum += s1.pop();
-            if (!s2.isEmpty()) sum += s2.pop();
-            cur.val = sum % 10;
-            ListNode head = new ListNode(sum / 10);
-            head.next = cur;
-            cur = head;
-            sum = sum / 10;
+        ListNode head = null;
+        int carry = 0;
+
+        while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
+            int sum = carry;
+            if (!s1.isEmpty()) {
+                sum += s1.pop();
+            }
+            if (!s2.isEmpty()) {
+                sum += s2.pop();
+            }
+
+            carry = sum / 10;
+            ListNode newNode = new ListNode(sum % 10);
+            newNode.next = head;
+            head = newNode;
         }
-        return cur.val == 0 ? cur.next : cur;
+        return head;
     }
 }
 ```
