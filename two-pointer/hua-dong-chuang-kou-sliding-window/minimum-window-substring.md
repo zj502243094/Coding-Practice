@@ -6,7 +6,7 @@
 
 > Given two strings `s` and `t` of lengths `m` and `n` respectively, return _the **minimum window substring** of_ `s` _such that every character in_ `t` _(**including duplicates**) is included in the window. If there is no such substring, return the empty string_ `""`
 >
-> ``
+>
 >
 > **Example 1:**
 >

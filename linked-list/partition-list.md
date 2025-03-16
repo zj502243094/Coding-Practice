@@ -1,8 +1,4 @@
----
-description: Partition List
----
-
-# Page
+# Partition List
 
 [https://leetcode.com/problems/partition-list/description/](https://leetcode.com/problems/partition-list/description/)
 
