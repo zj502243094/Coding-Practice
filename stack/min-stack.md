@@ -22,26 +22,27 @@ minStack:   \[2 2 1 1 0]
 
 ```
 class MinStack {
+
     Stack<Integer> stack;
     Stack<Integer> minStack;
 
     public MinStack() {
-        stack = new Stack<Integer>();
-        minStack = new Stack<Integer>();
+        stack = new Stack<>();
+        minStack = new Stack();
     }
     
     public void push(int val) {
         stack.push(val);
-        if(minStack.isEmpty()) {
+        if (minStack.isEmpty() || val < minStack.peek()) {
             minStack.push(val);
         } else {
-            minStack.push(Math.min(minStack.peek(), val));
+            minStack.push(minStack.peek());
         }
     }
     
     public void pop() {
-        minStack.pop();
         stack.pop();
+        minStack.pop();
     }
     
     public int top() {
@@ -49,7 +50,7 @@ class MinStack {
     }
     
     public int getMin() {
-        return minStack.peek();
+       return minStack.peek();
     }
 }
 ```
