@@ -178,6 +178,7 @@
   * [Trapping Rain Water](stack/trapping-rain-water.md)
   * [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram.md)
   * [Decode String](stack/decode-string.md)
+  * [Baseball Game](stack/baseball-game.md)
 * [Hash](hash/README.md)
   * [Two Sum](hash/two-sum.md)
   * [Group Anagrams](hash/group-anagrams.md)
