@@ -177,6 +177,7 @@
   * [Remove K Digits](stack/remove-k-digits.md)
   * [Trapping Rain Water](stack/trapping-rain-water.md)
   * [Largest Rectangle in Histogram](stack/largest-rectangle-in-histogram.md)
+  * [Decode String](stack/decode-string.md)
 * [Hash](hash/README.md)
   * [Two Sum](hash/two-sum.md)
   * [Group Anagrams](hash/group-anagrams.md)
