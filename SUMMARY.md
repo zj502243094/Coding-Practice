@@ -117,6 +117,7 @@
   * [Subtree of Another Tree](binary-tree/subtree-of-another-tree.md)
   * [Check Full Binary Tree](binary-tree/check-full-binary-tree.md)
   * [Check Completeness of a Binary Tree](binary-tree/check-completeness-of-a-binary-tree.md)
+  * [Symmetric Tree](binary-tree/symmetric-tree.md)
 * [Sort](sort/README.md)
   * [Majority Element](sort/majority-element.md)
   * [Majority Element II](sort/majority-element-ii.md)
