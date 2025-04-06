@@ -13,7 +13,57 @@
 >
 > **Example 1:**
 >
-> ![](https://assets.leetcode.com/uploads/2020/09/04/del\_node\_1.jpg)![](<../../.gitbook/assets/image (11) (1) (1).png>)
+> ![](https://assets.leetcode.com/uploads/2020/09/04/del_node_1.jpg)![](<../../.gitbook/assets/image (11) (1) (1).png>)
+
+{% hint style="info" %}
+#### Step 1: Search for the node
+
+* If `key < root.val`: search in left subtree
+* If `key > root.val`: search in right subtree
+* If `key == root.val`: we found the node to delete
+
+***
+
+#### Step 2: Delete logic (3 cases)
+
+1. **Leaf node** → just return `null`
+2. **One child** → return that child directly
+3. **Two children**:
+   * Find the **inorder successor** (smallest node in the right subtree)
+   * Replace root's value with successor's value
+   * Delete the successor node in right subtree
+{% endhint %}
+
+```
+class Solution {
+    public TreeNode deleteNode(TreeNode root, int key) {
+        if(root == null) return null;
+        
+        if(key > root.val){
+            root.right = deleteNode(root.right, key);
+        }else if(key < root.val){
+            root.left = deleteNode(root.left, key);
+        }else{
+            if(root.left == null && root.right == null){
+                return null;
+            }else if(root.left == null){
+                return root.right;
+            }else if(root.right == null){
+                return root.left;
+            }else{
+                TreeNode minNode = findMin(root.right);
+                root.val = minNode.val;
+                root.right = deleteNode(root.right, minNode.val);
+            }
+        }
+        return root;
+    }
+    private TreeNode findMin(TreeNode node){
+        while (node.left != null) node = node.left;
+        return node;
+    }
+}
+```
 
 {% hint style="info" %}
 BST 满足 左根右 从大到小顺序
